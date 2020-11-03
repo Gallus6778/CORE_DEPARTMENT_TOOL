@@ -1,0 +1,11 @@
+// add static route (1)
+
+ZQKC:NPGEP,6:10.93.128.200,29:10.92.24.62:LOG::;
+
+//add IP Base route (2)
+
+ZQRU:ADD:1050,"UCE050":100000:85000:1000:500::;
+
+//Map to VLAN (3)
+
+ZQRC:NPGEP,6:VL1101:IPV4=10.92.24.57:ID=1050:;

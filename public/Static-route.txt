@@ -1,0 +1,183 @@
+
+
+//*****************UCE107******************//
+
+// add static route (1)
+
+ZQKC:NPGEP,6:10.93.130.0,29:10.92.24.14:LOG::;
+
+//add IP Base route (2)
+
+ZQRU:ADD:1107,"UCE107":100000:85000:1000:500::;
+
+//Map to VLAN (3)
+
+ZQRC:NPGEP,6:VL1102:IPV4=10.92.24.9:ID=1107:;
+
+//*****************UCE109******************//
+
+// add static route (1)
+
+ZQKC:NPGEP,6:10.93.130.16,29:10.92.24.14:LOG::;
+
+//add IP Base route (2)
+
+ZQRU:ADD:1109,"UCE109":100000:85000:1000:500::;
+
+//Map to VLAN (3)
+
+ZQRC:NPGEP,6:VL1102:IPV4=10.92.24.9:ID=1109:;
+
+//*****************UCE110******************//
+
+// add static route (1)
+
+ZQKC:NPGEP,6:10.93.130.24,29:10.92.24.14:LOG::;
+
+//add IP Base route (2)
+
+ZQRU:ADD:1110,"UCE110":100000:85000:1000:500::;
+
+//Map to VLAN (3)
+
+ZQRC:NPGEP,6:VL1102:IPV4=10.92.24.9:ID=1110:;
+
+//*****************UCE257******************//
+
+// add static route (1)
+
+ZQKC:NPGEP,8:10.93.132.80,29:10.92.24.22:LOG::;
+
+//add IP Base route (2)
+
+ZQRU:ADD:1257,"UCE257":100000:85000:1000:500::;
+
+//Map to VLAN (3)
+
+ZQRC:NPGEP,8:VL1103:IPV4=10.92.24.17:ID=1257:;
+
+//*****************UCE283******************//
+
+// add static route (1)
+
+ZQKC:NPGEP,8:10.93.132.248,29:10.92.24.30:LOG::;
+
+//add IP Base route (2)
+
+ZQRU:ADD:1283,"UCE283":100000:85000:1000:500::;
+
+//Map to VLAN (3)
+
+ZQRC:NPGEP,8:VL1104:IPV4=10.92.24.25:ID=1283:;
+
+//*****************UCE294******************//
+
+// add static route (1)
+
+ZQKC:NPGEP,8:10.93.133.72,29:10.92.24.30:LOG::;
+
+//add IP Base route (2)
+
+ZQRU:ADD:1294,"UCE294":100000:85000:1000:500::;
+
+//Map to VLAN (3)
+
+ZQRC:NPGEP,8:VL1104:IPV4=10.92.24.25:ID=1294:;
+
+//*****************UCE295******************//
+
+// add static route (1)
+
+ZQKC:NPGEP,8:10.93.133.80,29:10.92.24.30:LOG::;
+
+//add IP Base route (2)
+
+ZQRU:ADD:1295,"UCE295":100000:85000:1000:500::;
+
+//Map to VLAN (3)
+
+ZQRC:NPGEP,8:VL1104:IPV4=10.92.24.25:ID=1295:;
+
+//*****************UCE296******************//
+
+// add static route (1)
+
+ZQKC:NPGEP,8:10.93.133.88,29:10.92.24.30:LOG::;
+
+//add IP Base route (2)
+
+ZQRU:ADD:1296,"UCE296":100000:85000:1000:500::;
+
+//Map to VLAN (3)
+
+ZQRC:NPGEP,8:VL1104:IPV4=10.92.24.25:ID=1296:;
+
+//*****************UCE298******************//
+
+// add static route (1)
+
+ZQKC:NPGEP,8:10.93.133.104,29:10.92.24.30:LOG::;
+
+//add IP Base route (2)
+
+ZQRU:ADD:1298,"UCE298":100000:85000:1000:500::;
+
+//Map to VLAN (3)
+
+ZQRC:NPGEP,8:VL1104:IPV4=10.92.24.25:ID=1298:;
+
+//*****************UCE317******************//
+
+// add static route (1)
+
+ZQKC:NPGEP,8:10.93.133.232,29:10.92.24.30:LOG::;
+
+//add IP Base route (2)
+
+ZQRU:ADD:1317,"UCE317":100000:85000:1000:500::;
+
+//Map to VLAN (3)
+
+ZQRC:NPGEP,8:VL1104:IPV4=10.92.24.25:ID=1317:;
+
+//*****************UCE358******************//
+
+// add static route (1)
+
+ZQKC:NPGEP,10:10.93.135.32,29:10.92.24.38:LOG::;
+
+//add IP Base route (2)
+
+ZQRU:ADD:1358,"UCE358":100000:85000:1000:500::;
+
+//Map to VLAN (3)
+
+ZQRC:NPGEP,10:VL1105:IPV4=10.92.24.33:ID=1358:;
+
+//*****************UCE411******************//
+
+// add static route (1)
+
+ZQKC:NPGEP,10:10.93.136.152,29:10.92.24.46:LOG::;
+
+//add IP Base route (2)
+
+ZQRU:ADD:1411,"UCE411":100000:85000:1000:500::;
+
+//Map to VLAN (3)
+
+ZQRC:NPGEP,10:VL1106:IPV4=10.92.24.41:ID=1411:;
+
+//*****************UCE449******************//
+
+// add static route (1)
+
+ZQKC:NPGEP,10:10.93.137.16,29:10.92.24.46:LOG::;
+
+//add IP Base route (2)
+
+ZQRU:ADD:1449,"UCE449":100000:85000:1000:500::;
+
+//Map to VLAN (3)
+
+ZQRC:NPGEP,10:VL1106:IPV4=10.92.24.41:ID=1449:;

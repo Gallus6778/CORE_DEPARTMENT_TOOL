@@ -1,0 +1,131 @@
+.header-home-root{
+    background: #ee0f0f;
+    border-top: 2px solid #ee0f0f;
+    border-bottom: 2px solid #EE0F0F;
+    margin-left:-20px;
+    height: 60px;
+}
+#conteneur{
+    display: flex;
+}
+.element:nth-child(1){
+    flex: 1;
+}
+.element ul li{
+    list-style-type: none;
+}
+.header-home1{
+    display: flex;
+    margin-left: -35px;
+}
+.header-home1 li{
+    height: 58px;
+    width: 135px;
+    text-align: center;
+    padding-top: 14px;
+}
+.header-home1 a{
+    color: #fff;
+}
+.header-home1 li:hover,.element .header-home1 a li:hover {
+    background: #fff;
+    color: #EE0F0F;
+    font-weight: bold;
+}
+.header-home1 a:hover{
+    text-decoration: none;
+}
+.fas{
+    margin-left: 4px;
+}
+.element .header-home1 a:hover{
+    color: #EE0F0F;
+}
+
+/*///////////////////////////////////////////////*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.amenu-bar{
+    background: #EE0F0F;
+    text-align: center;
+    margin-left: -15px;
+    height: 61px;
+    z-index: 6;
+    /*position: fixed;*/
+}
+.amenu-bar ul{
+    display: inline-flex;
+    list-style-type: none;
+    color: #fff;
+}
+.amenu-bar ul li{
+    width: 170px;
+    margin-top: 2px;
+    /*margin-bottom: 0;*/
+    padding: 15px;
+}
+.amenu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+/*.amenu-bar ul li a:hover{*/
+/*    color: red;*/
+/*}*/
+.active, .amenu-bar ul li:hover{
+    background: #F2A3A3;
+}
+.active, .amenu-bar ul .image_nexttel:hover{
+    background: #EE0F0F;
+}
+.image_nexttel{
+    /*margin-right: -50px;*/
+}
+.amenu-bar .fa{
+    margin-left: 8px;
+}
+.asub-menu-1{
+    display: none;
+}
+.amenu-bar ul li:hover .asub-menu-1{
+    display: block;
+    position: absolute;
+    background: #EE0F0F;
+    margin-top: 15px;
+    margin-left: -15px;
+    z-index: 7;
+}
+.amenu-bar ul li:hover .asub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.amenu-bar ul li:hover .asub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.amenu-bar ul li:hover .asub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.amenu-bar ul li:hover .asub-menu-1 ul li a:hover{
+    color: #999090
+}
+.fa-angle-right{
+    float: right;
+}
+.asub-menu-2{
+    display: none;
+}
+.ahover-me:hover .asub-menu-2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: #EE0F0F;
+}

@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    font-family: 'Times New roman', sans-serif;
+    /* background: linear-gradient(to top, #F2A3A3 0%, #E53939 100%); */
+    background: linear-gradient(to bottom, #999090 0%, #fcf6f6 120%);
+    font-size: 10px;
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+#chat-container {
+    display: grid;
+    grid: 'search-container chat-title' 71px 'conversation-list chat-message-list' 1fr 'new-message-container chat-form' 78px / 275px 1fr;
+    min-width: 600px;
+    max-width: 800px;
+    max-height: 600px;
+    width: 100%;
+    height: 95vh;
+    /* background: #F2A3A3; */
+    border-radius: 10px;
+}
+
+#search-container,
+#conversation-list,
+#new-message-container {
+    background: #EE0F0F;
+}
+
+#search-container {
+    display: grid;
+    align-items: center;
+    padding: 0 20px;
+    grid-area: search-container;
+    border-radius: 10px 0 0 0;
+    box-shadow: 0 1px 3px -1px #fff;
+    z-index: 1;
+}
+
+
+/* #search-container span { */
+
+#search-container input {
+    color: #fff;
+    outline: none;
+    font-weight: bold;
+    border-radius: 2px;
+    height: 30px;
+    border: 0;
+    padding-left: 40px;
+    padding-right: 20px;
+    font-size: 1.4rem;
+    background: url('../images/search.svg') no-repeat rgba(255, 255, 255, 0.3);
+    background-position: 15px center;
+    background-size: 20px 20px;
+}
+
+#search-container input::placeholder {
+    color: #fff;
+    font-weight: bold;
+}
+
+#conversation-list {
+    grid-area: conversation-list;
+}
+
+#new-message-container {
+    /* grid-area: mew-message-container; */
+    border-top: 1px solid #EE0F0F;
+    border-radius: 0 0 0 10px;
+}
+
+#new-message-title a {
+    background: #fff;
+    border-radius: 100%;
+    color: aqua;
+    text-decoration: none;
+    font-size: 3.6rem;
+}
+
+#chat-title,
+#chat-form {
+    background: #D5CFCF;
+}
+
+#chat-title {
+    grid-area: chat-title;
+    color: #fff;
+    font-weight: bold;
+    font-size: 2.0rem;
+    border-radius: 0 10px 0 0;
+    box-shadow: 0 1px 3px -1px #692121;
+}
+
+#chat-message-list {
+    grid-area: chat-message-list;
+}
+
+#chat-form {
+    grid-area: chat-form;
+    border-radius: 0 0 10px 0;
+    border-top: 1px solid #692121;
+}
+
+#search-container span,
+#chat-title h1 {
+    font-style: italic;
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+}

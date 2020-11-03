@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE csvmap SYSTEM "csvmap10.dtd">
+<csvmap>
+<header rows="4"/>
+
+<managedObject class="NOKRNC:IPNB">
+	<p name="$operation"/>
+	<p name="$dn"/>
+	<p name="$templateName"/>
+	<p name="NodeBIPAddress"/>
+	<p name="CControlPortID"/>
+	<p name="DNBAPICSUIndex"/>
+	<p name="SCTPPortNumberDNBAP"/>
+	<p name="MinSCTPPortIub"/>
+	<p name="name"/>
+	<p name="NBAPDSCP"/>
+
+</managedObject>
+
+</csvmap>
+

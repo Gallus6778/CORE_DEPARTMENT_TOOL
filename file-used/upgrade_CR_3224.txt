@@ -1,0 +1,42 @@
+
+************YABC01************
+
+//ADD Trx T2734 in cell $cells_names
+
+ZOYX:$d_name:IUA:S:BCSU,$bcsu_id:AFAST2:4:;
+ZOYP:IUA:$d_name:"$mPlaneRemoteIpAddress",,$sctp_port:"$cuPlaneLocalIpAddress",29,,,$sctp_port:;
+ZDWP:$d_name:BCSU,$bcsu_id:0,$trx_id:$d_name,;
+ZOYS:IUA:$d_name:ACT:;
+ZERC:NAME=$cells_names,TRX=$trx_id:PREF=N,GTRX=N,:FREQ=$frequency,TSC=$tsc,:DNAME=$d_name:CH0=$ch0_type,CH1=$ch1_type,CH2=$ch2_type,CH3=$ch3_type,CH4=$ch4_type,CH5=$ch5_type,CH6=$ch6_type,CH7=$ch7_type::::;
+ZERS:NAME=$cells_names,TRX=$trx_id,:U:;
+ZEQS:NAME=$cells_names:U:;
+ZEEI:NAME=$cells_names:;
+
+
+'//ADD Trx ' . T2734 . ' in cell ' . $cells_names . '
+
+ZOYX:' . $d_name . ':IUA:S:BCSU,' . $bcsu_id . ':AFAST2:4:;
+ZOYP:IUA:' . $d_name . ':"' . $mPlaneRemoteIpAddress . '",,' . $sctp_port . ':"' . $cuPlaneLocalIpAddress . '",29,,,' . $sctp_port . ':;
+ZDWP:' . $d_name . ':BCSU,' . $bcsu_id . ':0,' . $trx_id . ':' . $d_name . ',;
+ZOYS:IUA:' . $d_name . ':ACT:;
+ZERC:NAME=' . $cells_names . ',TRX=' . $trx_id . ':PREF=N,GTRX=N,:FREQ=' . $frequency . ',TSC=' . $tsc . ',:DNAME=' . $d_name . ':CH0=' . $ch0_type . ',CH1=' . $ch1_type . ',CH2=' . $ch2_type . ',CH3=' . $ch3_type . ',CH4=' . $ch4_type . ',CH5=' . $ch5_type . ',CH6=' . $ch6_type . ',CH7=' . $ch7_type . '::::;
+ZERS:NAME=' . $cells_names . ',TRX=' . $trx_id . ',:U:;
+ZEQS:NAME=' . $cells_names . ':U:;
+ZEEI:NAME=' . $cells_names . ':;';
+
+
+
+//ADD Trx T2738 in cell CE02736
+
+ZOYX:E2738:IUA:S:BCSU,2:AFAST2:4:;
+ZOYP:IUA:E2738:"10.92.42.2",,49160:"10.93.13.65",29,,,49160:;
+ZDWP:E2738:BCSU,2:0,8:E2738,;
+ZOYS:IUA:E2738:ACT:;
+ZERC:NAME=CE02736,TRX=8:PREF=N,GTRX=N,:FREQ=604,TSC=1,:DNAME=E2738:CH0=SDCCH,CH1=TCHD,CH2=TCHD,CH3=TCHD,CH4=TCHD,CH5=TCHD,CH6=TCHD,CH7=TCHD::::;
+ZERS:NAME=CE02736,TRX=8,:U:;
+ZEQS:NAME=CE02736:U:;
+ZEEI:NAME=CE02736:;
+
+
+
+

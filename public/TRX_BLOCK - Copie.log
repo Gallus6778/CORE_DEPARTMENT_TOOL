@@ -1,0 +1,3217 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ENTER USERNAME < ULRICH
+
+ENTER PASSWORD < ******
+
+FlexiBSC  YABC01                    2020-09-21  14:44:48
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       WELCOME TO THE DX 200 SERIES DIALOGUE
+
+
+
+
+
+MAIN LEVEL COMMAND <___>
+< ZEEI
+
+
+LOADING PROGRAM VERSION 34.5-0
+
+/* DATA UNITS:
+
+   BCF IDENTIFICATION, SEG IDENTIFICATION, SEG NAME,
+   BTS IDENTIFICATION, BTS NAME:
+   OUTPUT TYPE                                       */
+
+EEI:;
+
+
+
+
+FlexiBSC  YABC01                    2020-09-21  14:44:53
+RADIO NETWORK CONFIGURATION IN BSC:
+                                                         E P  B
+                                      F                  T R  C D-CHANNEL  BUSY
+                      AD OP           R  ET- BCCH/CBCH/  R E  S O&M LINK  HR  FR
+ LAC   CI         HOP ST STATE  FREQ  T  PCM ERACH       X F  U NAME  ST
+                                                                             /GP
+===================== == ====== ==== == ==== =========== = = == ===== == === ===
+
+BCF-0001  FLEXI MULTI  U WO                                   1  OM001 WO
+ 20501 10011 BTS-0001  U WO                                                3   5
+ CE00011          BB/-
+                                                                               7
+              TRX-001  U WO       50  0    - MBCCH+CBCH    P  1
+              TRX-003  U WO       45  0    -                  1
+              TRX-006  U WO       66  0    -                  1
+ 20501 10012 BTS-0002  U WO                                                0   2
+ CE00012          BB/-
+                                                                               5
+              TRX-002  U WO       78  0    -                  1
+              TRX-005  U WO       56  0    - MBCCH+CBCH    P  1
+              TRX-012  U WO       81  0    -                  1
+ 20501 10013 BTS-0003  U WO                                                0   2
+ CE00013          BB/-
+                                                                               7
+              TRX-004  U WO       72  0    -                  1
+              TRX-009  U WO       60  0    - MBCCH+CBCH    P  1
+              TRX-011  U WO       48  0    -                  1
+
+BCF-0002  FLEXI MULTI  U WO                                   2  OM002 WO
+ 20502 10021 BTS-0004  U BL-BTS                                            0   0
+ CE00021          BB/-
+                                                                               0
+              TRX-001  U BL-BTS  636  0    - MBCCH+CBCH    P  2
+              TRX-002  U BL-TRX  641  0    -                  2
+ 20502 10022 BTS-0005  U BL-BTS                                            0   0
+ CE00022          BB/-
+                                                                               0
+              TRX-005  U BL-BTS  616  0    - MBCCH+CBCH    P  2
+              TRX-006  U BL-TRX  669  0    -                  2
+ 20502 10023 BTS-0006  U BL-BTS                                            0   0
+ CE00023          BB/-
+                                                                               0
+              TRX-009  U BL-BTS  626  0    - MBCCH+CBCH    P  2
+              TRX-010  U BL-TRX  681  0    -                  2
+
+BCF-0013  FLEXI MULTI  U WO                                   1  OM013 WO
+ 20501 10131 BTS-0037  U WO                                                1   0
+ CE00131          BB/-
+                                                                               1
+              TRX-001  U WO       65  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO       64  0    -                  1
+ 20501 10132 BTS-0038  U WO                                                2   1
+ CE00132          BB/-
+                                                                               4
+              TRX-005  U WO       46  0    - MBCCH+CBCH    P  1
+              TRX-007  U WO       67  0    -                  1
+ 20501 10133 BTS-0039  U WO                                                0   0
+ CE00133          BB/-
+                                                                               1
+              TRX-009  U WO       58  0    - MBCCH+CBCH    P  1
+              TRX-010  U WO       62  0    -                  1
+
+BCF-0016  FLEXI MULTI  U WO                                   3  OM016 WO
+ 20501 10161 BTS-0046  U WO                                                1   5
+ CE00161          BB/-
+                                                                               1
+              TRX-001  U WO       74  0    - MBCCH+CBCH    P  3
+              TRX-011  U WO       59  0    -                  3
+ 20501 10162 BTS-0047  U WO                                                0   3
+ CE00162          BB/-
+                                                                               6
+              TRX-004  U WO       66  0    -                  3
+              TRX-005  U WO       79  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       82  0    -                  3
+ 20501 10163 BTS-0048  U WO                                                0   2
+ CE00163          BB/-
+                                                                               1
+              TRX-009  U WO       55  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO       62  0    -                  3
+
+BCF-0018  FLEXI MULTI  U WO                                   3  OM018 WO
+ 20501 10181 BTS-0052  U WO                                                0   1
+ CE00181          BB/-
+                                                                               2
+              TRX-001  U WO      630  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO      655  0    -                  3
+ 20501 10182 BTS-0053  U WO                                                0   0
+ CE00182          BB/-
+                                                                               2
+              TRX-005  U WO      632  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO      644  0    -                  3
+ 20501 10183 BTS-0054  U WO                                                0   1
+ CE00183          BB/-
+                                                                               5
+              TRX-009  U WO      637  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO      647  0    -                  3
+
+BCF-0019  FLEXI MULTI  U WO                                   1  OM019 WO
+ 20501 10191 BTS-0055  U WO                                                3   0
+ CE00191          BB/-
+                                                                               6
+              TRX-001  U WO       52  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO       83  0    -                  1
+ 20501 10192 BTS-0056  U WO                                                3   2
+ CE00192          BB/-
+                                                                               6
+              TRX-005  U WO       53  0    - MBCCH+CBCH    P  1
+              TRX-006  U WO       68  0    -                  1
+ 20501 10193 BTS-0057  U WO                                                3   2
+ CE00193          BB/-
+                                                                               6
+              TRX-009  U WO       44  0    - MBCCH+CBCH    P  1
+              TRX-010  U WO       79  0    -                  1
+
+BCF-0020  FLEXI MULTI  U WO                                   2  OM020 WO
+ 20501 10201 BTS-0058  U WO                                                1   3
+ CE00201          BB/-
+                                                                               5
+              TRX-001  U WO       61  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO       73  0    -                  2
+ 20501 10202 BTS-0059  U WO                                                1   3
+ CE00202          BB/-
+                                                                               1
+              TRX-005  U WO       44  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO       83  0    -                  2
+ 20501 10203 BTS-0060  U WO                                                0   1
+ CE00203          BB/-
+                                                                               2
+              TRX-009  U WO       55  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO       58  0    -                  2
+
+BCF-0038  FLEXI MULTI  U WO                                   3  OM038 WO
+ 20505 10381 BTS-0112  U WO                                                1   3
+ CE00381          BB/-
+                                                                              11
+              TRX-001  U WO       49  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       81  0    -                  3
+              TRX-004  U WO       64  0    -                  3
+ 20505 10382 BTS-0113  U WO                                                1   3
+ CE00382          BB/-
+                                                                              12
+              TRX-005  U WO       47  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       62  0    -                  3
+              TRX-007  U WO       71  0    -                  3
+              TRX-011  U WO       83  0    -                  3
+              TRX-012  U WO       54  0    -                  3
+              TRX-015  U WO       66  0    -                  3
+ 20505 10383 BTS-0114  U WO                                                0   0
+ CE00383          BB/-
+                                                                               5
+              TRX-009  U WO       60  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO       74  0    -                  3
+ 20505 00103 BTS-1612  U WO                                                0   0
+ CE00380          BB/-
+                                                                               5
+              TRX-013  U WO       58  0    - MBCCH+CBCH    P  3
+              TRX-014  U WO       76  0    -                  3
+
+BCF-0058  FLEXI MULTI  U WO                                   1  OM058 WO
+ 20505 10581 BTS-0172  U WO                                                0   0
+ CE00581          BB/-
+                                                                               2
+              TRX-001  U WO       54  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO       70  0    -                  1
+ 20505 10582 BTS-0173  U WO                                                2   0
+ CE00582          BB/-
+                                                                               5
+              TRX-004  U WO       52  0    -                  1
+              TRX-005  U WO       43  0    - MBCCH+CBCH    P  1
+              TRX-006  U WO       79  0    -                  1
+ 20505 10583 BTS-0174  U WO                                                0   0
+ CE00583          BB/-
+                                                                               4
+              TRX-009  U WO       47  0    - MBCCH+CBCH    P  1
+              TRX-010  U WO       82  0    -                  1
+
+BCF-0069  FLEXI MULTI  U WO                                   1  OM069 BL
+ 20501 10691 BTS-0205  U WO                                                0   0
+ CE00691          BB/-
+                                                                               0
+              TRX-001  U BL-RSL  624  0    - MBCCH+CBCH    P  1
+              TRX-002  U BL-RSL  675  0    -                  1
+ 20501 10692 BTS-0206  U WO                                                0   0
+ CE00692          BB/-
+                                                                               0
+              TRX-005  U BL-RSL  620  0    - MBCCH+CBCH    P  1
+              TRX-007  U BL-RSL  673  0    -                  1
+ 20501 10693 BTS-0207  U WO                                                0   0
+ CE00693          BB/-
+                                                                               0
+              TRX-009  U BL-RSL  631  0    - MBCCH+CBCH    P  1
+              TRX-010  U BL-RSL  640  0    -                  1
+ 20501 00114 BTS-1705  U WO                                                0   0
+ CE00694          BB/-
+                                                                               0
+              TRX-003  U BL-RSL  618  0    - MBCCH+CBCH       1
+              TRX-004  U BL-RSL  658  0    -                  1
+
+BCF-0070  FLEXI MULTI  U WO                                   3  OM070 WO
+ 20501 10701 BTS-0208  U WO                                                0   3
+ CE00701          BB/-
+                                                                               6
+              TRX-001  U WO       60  0    - MBCCH+CBCH    P  3
+              TRX-004  U WO       77  0    -                  3
+ 20501 10702 BTS-0209  U WO                                                4   1
+ CE00702          BB/-
+                                                                               6
+              TRX-005  U WO       57  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       80  0    -                  1
+ 20501 10703 BTS-0210  U WO                                                2   1
+ CE00703          BB/-
+                                                                               5
+              TRX-009  U WO       54  0    - MBCCH+CBCH    P  3
+              TRX-012  U WO       71  0    -                  3
+
+BCF-0071  FLEXI MULTI  U WO                                   2  OM071 WO
+ 20501 10711 BTS-0211  U WO                                                0   1
+ CE00711          BB/-
+                                                                               4
+              TRX-001  U WO      628  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO      683  0    -                  2
+ 20501 10713 BTS-0213  U WO                                                0   1
+ CE00713          BB/-
+                                                                               4
+              TRX-009  U WO      616  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO      685  0    -                  2
+
+BCF-0075  FLEXI MULTI  U WO                                   1  OM075 WO
+ 20501 10751 BTS-0223  U WO                                               10   1
+ CE00751          BB/-
+                                                                               2
+              TRX-001  U WO       60  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO       67  0    -                  1
+ 20501 10752 BTS-0224  U WO                                                0   1
+ CE00752          BB/-
+                                                                               2
+              TRX-005  U WO       56  0    - MBCCH+CBCH    P  1
+              TRX-006  U WO       70  0    -                  1
+ 20501 10753 BTS-0225  U WO                                                0   1
+ CE00753          BB/-
+                                                                               5
+              TRX-009  U WO       53  0    - MBCCH+CBCH    P  1
+              TRX-011  U WO       75  0    -                  1
+
+BCF-0076  FLEXI MULTI  U WO                                   2  OM076 BL
+ 20501 10761 BTS-0226  U WO                                                0   0
+ CE00761          BB/-
+                                                                               0
+              TRX-001  U BL-RSL   46  0    - MBCCH+CBCH    P  2
+ 20501 10762 BTS-0227  U WO                                                0   0
+ CE00762          BB/-
+                                                                               0
+              TRX-005  U BL-RSL   50  0    - MBCCH+CBCH    P  2
+              TRX-006  U BL-RSL   66  0    -                  2
+ 20501 10763 BTS-0228  U WO                                                0   0
+ CE00763          BB/-
+                                                                               0
+              TRX-009  U BL-RSL   57  0    - MBCCH+CBCH    P  2
+              TRX-010  U BL-RSL   82  0    -                  2
+
+BCF-0078  FLEXI MULTI  U WO                                   3  OM078 WO
+ 20501 10781 BTS-0232  U WO                                                3   5
+ CE00781          BB/-
+                                                                               5
+              TRX-001  U WO       43  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       71  0    -                  3
+              TRX-003  U WO       73  0    -                  3
+              TRX-011  U WO       61  0    -                  3
+ 20501 10782 BTS-0233  U WO                                                0   1
+ CE00782          BB/-
+                                                                               6
+              TRX-005  U WO       48  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       69  0    -                  3
+ 20501 10783 BTS-0234  U WO                                                0   3
+ CE00783          BB/-
+                                                                               5
+              TRX-009  U WO       59  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO       63  0    -                  3
+
+BCF-0079  FLEXI MULTI  U WO                                   1  OM079 WO
+ 20501 10791 BTS-0235  U WO                                                0   0
+ CE00791          BB/-
+                                                                               4
+              TRX-001  U WO       57  0    - MBCCH+CBCH    P  1
+              TRX-003  U WO       70  0    -                  1
+ 20501 10792 BTS-0236  U WO                                                0   3
+ CE00792          BB/-
+                                                                               4
+              TRX-004  U WO       65  0    -                  1
+              TRX-005  U WO       49  0    - MBCCH+CBCH    P  1
+ 20501 10793 BTS-0237  U WO                                                1   0
+ CE00793          BB/-
+                                                                               2
+              TRX-009  U WO       82  0    - MBCCH+CBCH    P  1
+              TRX-010  U WO       78  0    -                  1
+
+BCF-0080  FLEXI MULTI  U WO                                   2  OM080 BL
+ 20501 10801 BTS-0238  U WO                                                0   0
+ CE00801          BB/-
+                                                                               0
+              TRX-001  U BL-RSL   51  0    - MBCCH+CBCH    P  2
+              TRX-002  U BL-RSL   68  0    -                  2
+              TRX-003  U BL-RSL   70  0    -                  2
+ 20501 10802 BTS-0239  U WO                                                0   0
+ CE00802          BB/-
+                                                                               0
+              TRX-005  U BL-RSL   54  0    - MBCCH+CBCH    P  2
+              TRX-006  U BL-RSL   75  0    -                  2
+ 20501 10803 BTS-0240  U WO                                                0   0
+ CE00803          BB/-
+                                                                               0
+              TRX-009  U BL-RSL   43  0    - MBCCH+CBCH    P  2
+              TRX-010  U BL-RSL   63  0    -                  2
+
+BCF-0081  FLEXI MULTI  U WO                                   3  OM081 WO
+ 20501 10811 BTS-0241  U WO                                                0   0
+ CE00811          BB/-
+                                                                               2
+              TRX-001  U WO       71  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       65  0    -                  3
+ 20501 10812 BTS-0242  U WO                                                0   0
+ CE00812          BB/-
+                                                                               2
+              TRX-005  U WO       49  0    - MBCCH+CBCH    P  3
+              TRX-007  U WO       72  0    -                  3
+ 20501 10813 BTS-0243  U WO                                                0   0
+ CE00813          BB/-
+                                                                               4
+              TRX-009  U WO       55  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO       79  0    -                  3
+
+BCF-0082  FLEXI MULTI  U WO                                   3  OM082 BL
+ 20501 10821 BTS-0244  U WO                                                0   0
+ CE00821          BB/-
+                                                                               0
+              TRX-001  U BL-RSL   63  0    - MBCCH+CBCH    P  3
+              TRX-002  U BL-RSL   46  0    -                  3
+ 20501 10822 BTS-0245  U WO                                                0   0
+ CE00822          BB/-
+                                                                               0
+              TRX-005  U BL-RSL   48  0    - MBCCH+CBCH    P  3
+              TRX-006  U BL-RSL   73  0    -                  3
+ 20501 10823 BTS-0246  U WO                                                0   0
+ CE00823          BB/-
+                                                                               0
+              TRX-009  U BL-RSL   45  0    - MBCCH+CBCH    P  3
+              TRX-011  U BL-RSL   49  0    -                  3
+
+BCF-0085  FLEXI MULTI  U WO                                   2  OM085 WO
+ 20501 10851 BTS-0253  U WO                                                0   2
+ CE00851          BB/-
+                                                                               6
+              TRX-001  U WO      612  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO      660  0    -                  2
+              TRX-007  U WO      628  0    -                  2
+ 20501 10852 BTS-0254  U WO                                                4   0
+ CE00852          BB/-
+                                                                              15
+              TRX-005  U WO      634  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO      664  0    -                  2
+              TRX-011  U WO      671  0    -                  2
+ 20501 10853 BTS-0255  U WO                                                0   2
+ CE00853          BB/-
+                                                                               4
+              TRX-004  U WO      666  0    -                  2
+              TRX-009  U WO      622  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO      630  0    -                  2
+
+BCF-0088  FLEXI MULTI  U WO                                   2  OM088 WO
+ 20505 10881 BTS-0262  U WO                                                0   1
+ CE00881          BB/-
+                                                                               4
+              TRX-001  U WO       50  0    - MBCCH+CBCH    P  2
+              TRX-004  U WO       76  0    -                  2
+ 20505 10882 BTS-0263  U WO                                                1   1
+ CE00882          BB/-
+                                                                               1
+              TRX-005  U WO       45  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO       66  0    -                  2
+ 20505 10883 BTS-0264  U WO                                                0   1
+ CE00883          BB/-
+                                                                               5
+              TRX-008  U WO       79  0    -                  2
+              TRX-009  U WO       51  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO       54  0    -                  2
+
+BCF-0089  FLEXI MULTI  U WO                                   1  OM089 WO
+ 20505 10891 BTS-0265  U WO                                                0   2
+ CE00891          BB/-
+                                                                               5
+              TRX-001  U WO       57  0    - MBCCH+CBCH    P  1
+              TRX-008  U WO       62  0    -                  1
+ 20505 10892 BTS-0266  U WO                                                0   0
+ CE00892          BB/-
+                                                                               2
+              TRX-011  U WO       61  0    - MBCCH+CBCH    P  1
+ 20505 10893 BTS-0267  U WO                                                7   1
+ CE00893          BB/-
+                                                                               6
+              TRX-002  U WO       63  0    -                  1
+              TRX-003  U WO       60  0    -                  1
+              TRX-006  U WO       71  0    -                  1
+              TRX-007  U WO       78  0    -                  1
+              TRX-009  U WO       45  0    - MBCCH+CBCH    P  1
+              TRX-010  U WO       69  0    -                  1
+
+BCF-0090  FLEXI MULTI  U WO                                   3  OM090 WO
+ 20505 10901 BTS-0268  U WO                                                0   2
+ CE00901          BB/-
+                                                                               3
+              TRX-001  U WO       63  0    - MBCCH+CBCH    P  3
+              TRX-014  U WO       78  0    -                  3
+ 20505 10902 BTS-0269  U WO                                                1   3
+ CE00902          BB/-
+                                                                               3
+              TRX-005  U WO       59  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       54  0    -                  3
+ 20505 10903 BTS-0270  U BL-BTS                                            0   0
+ CE00903          BB/-
+                                                                               0
+              TRX-009  U BL-TRX   57  0    - MBCCH+CBCH    P  3
+              TRX-010  U BL-BTS   64  0    -                  3
+
+BCF-0091  FLEXI MULTI  U WO                                   1  OM091 WO
+ 20505 10911 BTS-0271  U WO                                                0   0
+ CE00911          BB/-
+                                                                               5
+              TRX-001  U WO       54  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO       69  0    -                  1
+ 20505 10912 BTS-0272  U WO                                                1   0
+ CE00912          BB/-
+                                                                               4
+              TRX-005  U WO       44  0    - MBCCH+CBCH    P  1
+              TRX-006  U WO       72  0    -                  1
+ 20505 10913 BTS-0273  U WO                                                0   1
+ CE00913          BB/-
+                                                                               4
+              TRX-009  U WO       47  0    - MBCCH+CBCH    P  1
+              TRX-010  U WO       74  0    -                  1
+
+BCF-0092  FLEXI MULTI  U WO                                   2  OM092 WO
+ 20505 10921 BTS-0274  U BL-BTS                                            0   0
+ CE00921          BB/-
+                                                                               0
+              TRX-001  U BL-BTS   58  0    - MBCCH+CBCH    P  2
+              TRX-004  U BL-TRX   67  0    -                  2
+ 20505 10922 BTS-0275  U BL-BTS                                            0   0
+ CE00922          BB/-
+                                                                               0
+              TRX-005  U BL-BTS   53  0    - MBCCH+CBCH    P  2
+              TRX-008  U BL-TRX   82  0    -                  2
+ 20505 10923 BTS-0276  U BL-BTS                                            0   0
+ CE00923          BB/-
+                                                                               0
+              TRX-009  U BL-BTS   60  0    - MBCCH+CBCH    P  2
+              TRX-012  U BL-TRX   76  0    -                  2
+
+BCF-0093  FLEXI MULTI  U WO                                   2  OM093 WO
+ 20502 10931 BTS-0277  U WO                                                0   0
+ CE00931          BB/-
+                                                                               2
+              TRX-004  U WO       60  0    -                  2
+              TRX-007  U WO       58  0    - MBCCH+CBCH    P  2
+ 20502 10932 BTS-0278  U WO                                                0   1
+ CE00932          BB/-
+                                                                               4
+              TRX-005  U WO       44  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO       72  0    -                  2
+ 20502 10933 BTS-0279  U WO                                                1   3
+ CE00933          BB/-
+                                                                               4
+              TRX-008  U WO       52  0    - MBCCH+CBCH    P  2
+              TRX-009  U WO       77  0    -                  2
+
+BCF-0094  FLEXI MULTI  U WO                                   1  OM094 WO
+ 20505 10941 BTS-0280  U BL-BTS                                            0   0
+ CE00941          BB/-
+                                                                               0
+              TRX-001  U BL-BTS   48  0    - MBCCH+CBCH    P  1
+              TRX-012  U BL-TRX   68  0    -                  1
+ 20505 10942 BTS-0281  U BL-BTS                                            0   0
+ CE00942          BB/-
+                                                                               0
+              TRX-005  U BL-BTS   46  0    - MBCCH+CBCH    P  1
+              TRX-006  U BL-TRX   72  0    -                  1
+ 20505 10943 BTS-0282  U BL-BTS                                            0   0
+ CE00943          BB/-
+                                                                               0
+              TRX-009  U BL-BTS   70  0    - MBCCH+CBCH    P  1
+              TRX-010  U BL-TRX   62  0    -                  1
+
+BCF-0095  FLEXI MULTI  U WO                                   3  OM095 WO
+ 20505 10951 BTS-0283  U WO                                                0   0
+ CE00951          BB/-
+                                                                               3
+              TRX-001  U WO       68  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       64  0    -                  3
+ 20505 10952 BTS-0284  U WO                                                2   0
+ CE00952          BB/-
+                                                                               3
+              TRX-003  U WO       60  0    -                  3
+              TRX-005  U WO       58  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       79  0    -                  3
+ 20505 10953 BTS-0285  U WO                                                0   0
+ CE00953          BB/-
+                                                                               4
+              TRX-004  U WO       56  0    -                  3
+              TRX-009  U WO       66  0    - MBCCH+CBCH    P  3
+
+BCF-0096  FLEXI MULTI  U WO                                   2  OM096 WO
+ 20505 10961 BTS-0286  U WO                                                0   2
+ CE00961          BB/-
+                                                                               2
+              TRX-001  U WO       43  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO       70  0    -                  2
+ 20505 10962 BTS-0287  U WO                                                1   3
+ CE00962          BB/-
+                                                                               6
+              TRX-003  U WO       77  0    -                  2
+              TRX-005  U WO       59  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO       82  0    -                  2
+              TRX-008  U WO       68  0    -                  2
+ 20505 10963 BTS-0288  U WO                                                0   1
+ CE00963          BB/-
+                                                                               5
+              TRX-009  U WO       50  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO       75  0    -                  2
+              TRX-011  U WO       63  0    -                  2
+
+BCF-0097  FLEXI MULTI  U WO                                   2  OM097 WO
+ 20505 10971 BTS-0289  U WO                                                0   1
+ CE00971          BB/-
+                                                                               4
+              TRX-001  U WO       72  0    - MBCCH+CBCH    P  2
+              TRX-004  U WO       75  0    -                  2
+ 20505 10972 BTS-0290  U WO                                                0   0
+ CE00972          BB/-
+                                                                               6
+              TRX-005  U WO       43  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO       64  0    -                  2
+ 20505 10973 BTS-0291  U WO                                                0   1
+ CE00973          BB/-
+                                                                               7
+              TRX-003  U WO       73  0    -                  2
+              TRX-009  U WO       70  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO       63  0    -                  2
+
+BCF-0098  FLEXI MULTI  U WO                                   1  OM098 WO
+ 20505 10981 BTS-0292  U WO                                                5   2
+ CE00981          BB/-
+                                                                              11
+              TRX-001  U WO       55  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO       58  0    -                  1
+              TRX-004  U WO       63  0    -                  1
+              TRX-008  U WO       82  0    -                  1
+ 20505 10982 BTS-0293  U WO                                                2   2
+ CE00982          BB/-
+                                                                              11
+              TRX-005  U WO       60  0    - MBCCH+CBCH    P  1
+              TRX-007  U WO       69  0    -                  1
+              TRX-011  U WO       77  0    -                  1
+ 20505 10983 BTS-0294  U WO                                                0   2
+ CE00983          BB/-
+                                                                               3
+              TRX-009  U WO       48  0    - MBCCH+CBCH    P  1
+              TRX-010  U WO       73  0    -                  1
+
+BCF-0099  FLEXI MULTI  U WO                                   2  OM099 WO
+ 20501 10991 BTS-0295  U WO                                                0   2
+ CE00991          BB/-
+                                                                               8
+              TRX-001  U WO      638  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO      671  0    -                  2
+              TRX-003  U WO      652  0    -                  2
+              TRX-004  U WO      647  0    -                  2
+ 20501 10992 BTS-0296  U WO                                                0   7
+ CE00992          BB/-
+                                                                               4
+              TRX-005  U WO      612  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO      682  0    -                  2
+              TRX-008  U WO      633  0    -                  2
+              TRX-015  U WO      679  0    -                  2
+ 20501 10993 BTS-0297  U WO                                                0   4
+ CE00993          BB/-
+                                                                               7
+              TRX-009  U WO      622  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO      684  0    -                  2
+              TRX-011  U WO      666  0    -                  2
+              TRX-012  U WO      668  0    -                  2
+              TRX-013  U WO      636  0    -                  2
+              TRX-014  U WO      655  0    -                  2
+
+BCF-0103  FLEXI MULTI  U WO                                   3  OM103 WO
+ 20505 11031 BTS-0307  U WO                                                0   1
+ CE01031          BB/-
+                                                                               3
+              TRX-001  U WO       50  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       65  0    -                  3
+ 20505 11032 BTS-0308  U WO                                                0   2
+ CE01032          BB/-
+                                                                               3
+              TRX-005  U WO       60  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       72  0    -                  3
+ 20505 11033 BTS-0309  U WO                                                0   0
+ CE01033          BB/-
+                                                                               3
+              TRX-012  U WO       48  0    - MBCCH+CBCH    P  3
+              TRX-013  U WO       77  0    -                  3
+
+BCF-0106  FLEXI MULTI  U WO                                   3  OM106 WO
+ 20505 11061 BTS-0316  U WO                                                4   0
+ CE01061          BB/-
+                                                                               2
+              TRX-001  U WO       47  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       73  0    -                  3
+              TRX-003  U WO       55  0    -                  3
+              TRX-014  U WO       45  0    -                  3
+              TRX-015  U WO       82  0    -                  3
+ 20505 11062 BTS-0317  U WO                                                1   1
+ CE01062          BB/-
+                                                                               6
+              TRX-004  U WO       69  0    -                  3
+              TRX-005  U WO       51  0    - MBCCH+CBCH    P  3
+              TRX-007  U WO       80  0    -                  3
+ 20505 11063 BTS-0318  U WO                                                0   1
+ CE01063          BB/-
+                                                                               4
+              TRX-008  U WO       62  0    -                  3
+              TRX-009  U WO       48  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO       65  0    -                  3
+
+BCF-0107  FLEXI MULTI  U WO                                   3  OM107 BL
+ 20502 11071 BTS-0319  U WO                                                0   0
+ CE01071          BB/-
+                                                                               0
+              TRX-001  U BL-RSL  628  0    - MBCCH+CBCH    P  3
+              TRX-002  U BL-RSL  655  0    -                  3
+              TRX-003  U BL-RSL  647  0    -                  3
+ 20502 11072 BTS-0320  U WO                                                0   0
+ CE01072          BB/-
+                                                                               0
+              TRX-005  U BL-RSL  635  0    - MBCCH+CBCH    P  3
+ 20502 11073 BTS-0321  U WO                                                0   0
+ CE01073          BB/-
+                                                                               0
+              TRX-009  U BL-RSL  632  0    - MBCCH+CBCH    P  3
+              TRX-010  U BL-RSL  650  0    -                  3
+
+BCF-0108  FLEXI MULTI  U WO                                   1  OM108 BL
+ 20502 11081 BTS-0322  U WO                                                0   0
+ CE01081          BB/-
+                                                                               0
+              TRX-001  U BL-RSL   55  0    - MBCCH+CBCH    P  1
+              TRX-002  U BL-RSL   64  0    -                  1
+ 20502 11082 BTS-0323  U WO                                                0   0
+ CE01082          BB/-
+                                                                               0
+              TRX-005  U BL-RSL   58  0    - MBCCH+CBCH    P  1
+              TRX-007  U BL-RSL   75  0    -                  1
+ 20502 11083 BTS-0324  U WO                                                0   0
+ CE01083          BB/-
+                                                                               0
+              TRX-003  U BL-RSL   62  0    -                  1
+              TRX-009  U BL-RSL   68  0    - MBCCH+CBCH    P  1
+
+BCF-0109  FLEXI MULTI  U WO                                   2  OM109 BL
+ 20502 11091 BTS-0325  U WO                                                0   0
+ CE01091          BB/-
+                                                                               0
+              TRX-001  U BL-RSL   44  0    - MBCCH+CBCH    P  2
+              TRX-002  U BL-RSL   80  0    -                  2
+ 20502 11092 BTS-0326  U WO                                                0   0
+ CE01092          BB/-
+                                                                               0
+              TRX-005  U BL-RSL   54  0    - MBCCH+CBCH    P  2
+              TRX-006  U BL-RSL   83  0    -                  2
+ 20502 11093 BTS-0327  U WO                                                0   0
+ CE01093          BB/-
+                                                                               0
+              TRX-009  U BL-RSL   70  0    - MBCCH+CBCH    P  2
+              TRX-010  U BL-RSL   45  0    -                  2
+
+BCF-0110  FLEXI MULTI  U WO                                   3  OM110 WO
+ 20502 11101 BTS-0328  U WO                                                0   0
+ CE01101          BB/-
+                                                                               2
+              TRX-001  U WO       46  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       73  0    -                  3
+ 20502 11102 BTS-0329  U WO                                                0   0
+ CE01102          BB/-
+                                                                               2
+              TRX-005  U WO       54  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       83  0    -                  3
+ 20502 11103 BTS-0330  U WO                                                0   0
+ CE01103          BB/-
+                                                                               2
+              TRX-009  U WO       43  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO       61  0    -                  3
+
+BCF-0116  FLEXI MULTI  U WO                                   1  OM116 WO
+ 20501 11161 BTS-0346  U BL-BTS                                            0   0
+ CE01161          BB/-
+                                                                               0
+              TRX-005  U BL-BTS  631  0    - MBCCH+CBCH    P  1
+              TRX-012  U BL-TRX  639  0    -                  1
+ 20501 11162 BTS-0347  U BL-BTS                                            0   0
+ CE01162          BB/-
+                                                                               0
+              TRX-003  U BL-TRX  683  0    -                  1
+              TRX-007  U BL-BTS  624  0    - MBCCH+CBCH       1
+              TRX-008  U BL-TRX  659  0    -                  1
+              TRX-014  U BL-TRX  685  0    -                  1
+ 20501 11163 BTS-0348  U BL-BTS                                            0   0
+ CE01163          BB/-
+                                                                               0
+              TRX-009  U BL-BTS  620  0    - MBCCH+CBCH    P  1
+              TRX-010  U BL-TRX  651  0    -                  1
+              TRX-011  U BL-TRX  647  0    -                  1
+              TRX-018  U BL-TRX  643  0    -                  1
+
+BCF-0120  FLEXI MULTI  U WO                                   1  OM120 WO
+ 20502 11201 BTS-0358  U WO                                                0   0
+ CE01201          BB/-
+                                                                               2
+              TRX-001  U WO       45  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO       67  0    -                  1
+ 20502 11202 BTS-0359  U WO                                                0   0
+ CE01202          BB/-
+                                                                               2
+              TRX-005  U WO       56  0    - MBCCH+CBCH    P  1
+              TRX-006  U WO       76  0    -                  1
+ 20502 11203 BTS-0360  U WO                                                0   0
+ CE01203          BB/-
+                                                                               2
+              TRX-009  U WO       43  0    - MBCCH+CBCH    P  1
+              TRX-010  U WO       54  0    -                  1
+
+BCF-0121  FLEXI MULTI  U WO                                   2  OM121 WO
+ 20502 11211 BTS-0361  U WO                                                0   2
+ CE01211          BB/-
+                                                                               4
+              TRX-001  U WO       43  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO       63  0    -                  2
+ 20502 11212 BTS-0362  U WO                                                0   1
+ CE01212          BB/-
+                                                                               1
+              TRX-005  U WO       50  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO       81  0    -                  2
+ 20502 11213 BTS-0363  U WO                                                0   3
+ CE01213          BB/-
+                                                                               6
+              TRX-003  U WO       45  0    -                  2
+              TRX-004  U WO       56  0    -                  2
+              TRX-009  U WO       47  0    - MBCCH+CBCH    P  2
+
+BCF-0122  FLEXI MULTI  U WO                                   3  OM122 BL
+ 20502 11221 BTS-0364  U WO                                                0   0
+ CE01221          BB/-
+                                                                               0
+              TRX-001  U BL-RSL   70  0    -                  3
+              TRX-012  U BL-RSL   43  0    - MBCCH+CBCH       3
+ 20502 11222 BTS-0365  U WO                                                0   0
+ CE01222          BB/-
+                                                                               0
+              TRX-005  U BL-RSL   59  0    - MBCCH+CBCH    P  3
+              TRX-006  U BL-RSL   62  0    -                  3
+ 20502 11223 BTS-0366  U WO                                                0   0
+ CE01223          BB/-
+                                                                               0
+              TRX-009  U BL-RSL   49  0    - MBCCH+CBCH    P  3
+              TRX-010  U BL-RSL   81  0    -                  3
+
+BCF-0123  FLEXI MULTI  U WO                                   2  OM123 WO
+ 20502 11231 BTS-0367  U WO                                                0   0
+ CE01231          BB/-
+                                                                               2
+              TRX-001  U WO       43  0    - MBCCH+CBCH    P  2
+              TRX-011  U WO       64  0    -                  2
+ 20502 11232 BTS-0368  U WO                                                0   0
+ CE01232          BB/-
+                                                                               2
+              TRX-005  U WO       47  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO       77  0    -                  2
+ 20502 11233 BTS-0369  U WO                                                1   1
+ CE01233          BB/-
+                                                                               4
+              TRX-008  U WO       75  0    -                  2
+              TRX-009  U WO       55  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO       71  0    -                  2
+
+BCF-0124  FLEXI MULTI  U WO                                   3  OM124 WO
+ 20502 11241 BTS-0370  U WO                                                0   1
+ CE01241          BB/-
+                                                                               8
+              TRX-001  U WO       60  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       70  0    -                  3
+              TRX-011  U WO       65  0    -                  3
+ 20502 11242 BTS-0371  U WO                                                0   0
+ CE01242          BB/-
+                                                                               6
+              TRX-005  U WO       45  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       74  0    -                  3
+ 20502 11243 BTS-0372  U WO                                                0   1
+ CE01243          BB/-
+                                                                               5
+              TRX-007  U WO       79  0    -                  3
+              TRX-009  U WO       53  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO       82  0    -                  3
+
+BCF-0130  FLEXI MULTI  U BL-BCF                               2  OM130 BL
+ 20502 11301 BTS-0388  U BL-BCF                                            0   0
+ CE01301          BB/-
+                                                                               0
+              TRX-001  U BL-BCF   47  0    - MBCCH+CBCH    P  2
+              TRX-002  U BL-BCF   71  0    -                  2
+              TRX-003  U BL-BCF   79  0    -                  2
+              TRX-004  U BL-BCF   66  0    -                  2
+ 20502 11302 BTS-0389  U BL-BCF                                            0   0
+ CE01302          BB/-
+                                                                               0
+              TRX-005  U BL-BCF   53  0    - MBCCH+CBCH    P  2
+              TRX-006  U BL-BCF   83  0    -                  2
+ 20502 11303 BTS-0390  U BL-BCF                                            0   0
+ CE01303          BB/-
+                                                                               0
+              TRX-008  U BL-BCF   81  0    -                  2
+              TRX-009  U BL-BCF   57  0    - MBCCH+CBCH    P  2
+
+BCF-0131  FLEXI MULTI  U WO                                   1  OM131 BL
+ 20502 11311 BTS-0391  U WO                                                0   0
+ CE01311          BB/-
+                                                                               0
+              TRX-001  U BL-RSL   52  0    - MBCCH+CBCH    P  1
+              TRX-002  U BL-RSL   77  0    -                  1
+ 20502 11312 BTS-0392  U WO                                                0   0
+ CE01312          BB/-
+                                                                               0
+              TRX-005  U BL-RSL   46  0    - MBCCH+CBCH    P  1
+              TRX-006  U BL-RSL   75  0    -                  1
+              TRX-013  U BL-RSL   62  0    -                  1
+ 20502 11313 BTS-0393  U WO                                                0   0
+ CE01313          BB/-
+                                                                               0
+              TRX-009  U BL-RSL   48  0    - MBCCH+CBCH    P  1
+              TRX-011  U BL-RSL   69  0    -                  1
+
+BCF-0132  FLEXI MULTI  U WO                                   3  OM132 WO
+ 20502 11321 BTS-0394  U WO                                                0   2
+ CE01321          BB/-
+                                                                               6
+              TRX-001  U WO       51  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       65  0    -                  3
+ 20502 11322 BTS-0395  U WO                                                0   1
+ CE01322          BB/-
+                                                                               8
+              TRX-005  U WO       46  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       70  0    -                  3
+ 20502 11323 BTS-0396  U WO                                                0   2
+ CE01323          BB/-
+                                                                               5
+              TRX-009  U WO       58  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO       69  0    -                  3
+
+BCF-0133  FLEXI MULTI  U WO                                   3  OM133 WO
+ 20502 11331 BTS-0397  U BL-BTS                                            0   0
+ CE01331          BB/-
+                                                                               0
+              TRX-001  U BL-BTS   52  0    - MBCCH+CBCH    P  3
+              TRX-003  U BL-TRX   78  0    -                  3
+              TRX-014  U BL-TRX   80  0    -                  3
+ 20502 11332 BTS-0398  U WO                                                0   0
+ CE01332          BB/-
+                                                                              10
+              TRX-004  U WO       53  0    -                  3
+              TRX-008  U WO       69  0    -                  3
+              TRX-012  U WO       57  0    - MBCCH+CBCH       3
+              TRX-013  U WO       81  0    -                  3
+ 20502 11333 BTS-0399  U BL-BTS                                            0   0
+ CE01333          BB/-
+                                                                               0
+              TRX-009  U BL-BTS   59  0    - MBCCH+CBCH    P  3
+              TRX-010  U BL-TRX   65  0    -                  3
+              TRX-011  U BL-TRX   76  0    -                  3
+
+BCF-0134  FLEXI MULTI  U WO                                   1  OM134 WO
+ 20502 11341 BTS-0400  U WO                                                2   2
+ CE01341          BB/-
+                                                                               6
+              TRX-001  U WO       64  0    -                  1
+              TRX-003  U WO       60  0    - MBCCH+CBCH    P  1
+              TRX-008  U WO       74  0    -                  1
+ 20502 11342 BTS-0401  U WO                                                0   1
+ CE01342          BB/-
+                                                                               3
+              TRX-002  U WO       65  0    -                  1
+              TRX-005  U WO       53  0    - MBCCH+CBCH    P  1
+              TRX-006  U WO       72  0    -                  1
+ 20502 11343 BTS-0402  U WO                                                0   1
+ CE01343          BB/-
+                                                                               4
+              TRX-004  U WO       63  0    -                  1
+              TRX-009  U WO       44  0    - MBCCH+CBCH    P  1
+              TRX-011  U WO       81  0    -                  1
+
+BCF-0135  FLEXI MULTI  U WO                                   2  OM135 WO
+ 20505 11351 BTS-0403  U WO                                                0   1
+ CE01351          BB/-
+                                                                               4
+              TRX-001  U WO       59  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO       73  0    -                  2
+ 20505 11352 BTS-0404  U WO                                                0   1
+ CE01352          BB/-
+                                                                               6
+              TRX-005  U WO       61  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO       77  0    -                  2
+              TRX-007  U WO       71  0    -                  2
+ 20505 11353 BTS-0405  U WO                                                0   0
+ CE01353          BB/-
+                                                                               2
+              TRX-009  U WO       55  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO       67  0    -                  2
+
+BCF-0242  FLEXI MULTI  U WO                                   1  OM242 WO
+ 20501 12421 BTS-0724  U WO                                                0   0
+ CE02421          BB/-
+                                                                               4
+              TRX-001  U WO       53  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO       74  0    -                  1
+ 20501 12422 BTS-0725  U WO                                                0   0
+ CE02422          BB/-
+                                                                               4
+              TRX-004  U WO       63  0    -                  1
+              TRX-005  U WO       46  0    - MBCCH+CBCH    P  1
+ 20501 12423 BTS-0726  U WO                                                0   0
+ CE02423          BB/-
+                                                                               4
+              TRX-009  U WO       43  0    - MBCCH+CBCH    P  1
+              TRX-011  U WO       81  0    -                  1
+
+BCF-0245  FLEXI MULTI  U WO                                   2  OM245 WO
+ 20501 12451 BTS-0733  U WO                                                0   5
+ CE02451          BB/-
+                                                                               1
+              TRX-001  U WO      641  0    - MBCCH+CBCH    P  2
+              TRX-003  U WO      678  0    -                  2
+ 20501 12452 BTS-0734  U WO                                                3   0
+ CE02452          BB/-
+                                                                               1
+              TRX-005  U WO      615  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO      672  0    -                  2
+ 20501 12453 BTS-0735  U WO                                                0   1
+ CE02453          BB/-
+                                                                               6
+              TRX-009  U WO      611  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO      677  0    -                  2
+
+BCF-0251  FLEXI MULTI  U WO                                   3  OM251 WO
+ 20505 12511 BTS-0751  U WO                                                0   0
+ CE02511          BB/-
+                                                                               2
+              TRX-001  U WO       59  0    - MBCCH+CBCH    P  3
+              TRX-003  U WO       78  0    -                  3
+ 20505 12512 BTS-0752  U WO                                                5   1
+ CE02512          BB/-
+                                                                               5
+              TRX-005  U WO       49  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       71  0    -                  3
+              TRX-008  U WO       56  0    -                  3
+ 20505 12513 BTS-0753  U WO                                                0   1
+ CE02513          BB/-
+                                                                               3
+              TRX-009  U WO       52  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO       74  0    -                  3
+
+BCF-0252  FLEXI MULTI  U WO                                   1  OM252 WO
+ 20502 12521 BTS-0754  U WO                                                0   0
+ CE02521          BB/-
+                                                                               5
+              TRX-001  U WO       53  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO       68  0    -                  1
+              TRX-003  U WO       81  0    -                  1
+ 20502 12522 BTS-0755  U WO                                                0   1
+ CE02522          BB/-
+                                                                               3
+              TRX-005  U WO       77  0    - MBCCH+CBCH    P  1
+              TRX-007  U WO       79  0    -                  1
+ 20502 12523 BTS-0756  U WO                                                0   1
+ CE02523          BB/-
+                                                                               5
+              TRX-009  U WO       46  0    - MBCCH+CBCH    P  1
+              TRX-011  U WO       61  0    -                  1
+
+BCF-0253  FLEXI MULTI  U WO                                   2  OM253 WO
+ 20502 12531 BTS-0757  U WO                                                0   2
+ CE02531          BB/-
+                                                                               6
+              TRX-001  U WO       52  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO       73  0    -                  2
+ 20502 12532 BTS-0758  U WO                                                1   7
+ CE02532          BB/-
+                                                                               6
+              TRX-005  U WO       49  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO       64  0    -                  2
+              TRX-008  U WO       51  0    -                  2
+              TRX-011  U WO       76  0    -                  2
+ 20502 12533 BTS-0759  U WO                                                0   1
+ CE02533          BB/-
+                                                                               6
+              TRX-009  U WO       60  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO       71  0    -                  2
+
+BCF-0254  FLEXI MULTI  U WO                                   2  OM254 WO
+ 20502 12541 BTS-0760  U WO                                                0   0
+ CE02541          BB/-
+                                                                               5
+              TRX-001  U WO       56  0    - MBCCH+CBCH    P  2
+              TRX-003  U WO       68  0    -                  2
+ 20502 12542 BTS-0761  U WO                                                0   4
+ CE02542          BB/-
+                                                                               2
+              TRX-004  U WO       54  0    -                  2
+              TRX-005  U WO       61  0    - MBCCH+CBCH    P  2
+              TRX-007  U WO       76  0    -                  2
+ 20502 12543 BTS-0762  U WO                                                0   3
+ CE02543          BB/-
+                                                                               4
+              TRX-006  U WO       66  0    -                  2
+              TRX-009  U WO       45  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO       78  0    -                  2
+
+BCF-0255  FLEXI MULTI  U WO                                   3  OM255 WO
+ 20505 12551 BTS-0763  U WO                                                0   0
+ CE02551          BB/-
+                                                                               4
+              TRX-001  U WO       58  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       65  0    -                  3
+              TRX-011  U WO       72  0    -                  3
+ 20505 12552 BTS-0764  U WO                                                0   0
+ CE02552          BB/-
+                                                                               2
+              TRX-005  U WO       45  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       67  0    -                  3
+ 20505 12553 BTS-0765  U WO                                                0   2
+ CE02553          BB/-
+                                                                               4
+              TRX-009  U WO       50  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO       76  0    -                  3
+
+BCF-0257  FLEXI MULTI  U WO                                   1  OM257 WO
+ 20502 12571 BTS-0769  U WO                                                4   3
+ CE02571          BB/-
+                                                                               5
+              TRX-001  U WO       49  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO       63  0    -                  1
+ 20502 12572 BTS-0770  U WO                                                1   1
+ CE02572          BB/-
+                                                                               5
+              TRX-005  U WO       60  0    - MBCCH+CBCH    P  1
+              TRX-006  U WO       72  0    -                  1
+ 20502 12573 BTS-0771  U WO                                                1   1
+ CE02573          BB/-
+                                                                               4
+              TRX-009  U WO       57  0    - MBCCH+CBCH    P  1
+              TRX-011  U WO       68  0    -                  1
+
+BCF-0258  FLEXI MULTI  U WO                                   2  OM258 WO
+ 20502 12581 BTS-0772  U WO                                                4   1
+ CE02581          BB/-
+                                                                              12
+              TRX-001  U WO       51  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO       68  0    -                  2
+              TRX-003  U WO       83  0    -                  2
+ 20502 12582 BTS-0773  U WO                                                1   5
+ CE02582          BB/-
+                                                                               5
+              TRX-005  U WO       46  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO       78  0    -                  2
+              TRX-007  U WO       80  0    -                  2
+              TRX-008  U WO       58  0    -                  2
+ 20502 12583 BTS-0774  U WO                                                7   3
+ CE02583          BB/-
+                                                                              13
+              TRX-009  U WO       56  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO       73  0    -                  2
+              TRX-011  U WO       70  0    -                  2
+              TRX-013  U WO       75  0    -                  2
+
+BCF-0264  FLEXI MULTI  U WO                                   2  OM264 WO
+ 20501 12641 BTS-0790  U WO                                                0   0
+ CE02641          BB/-
+                                                                               0
+              TRX-001  U BL-RSL   47  0    - MBCCH+CBCH    P  2
+              TRX-002  U BL-RSL   72  0    -                  2
+ 20501 12642 BTS-0791  U WO                                                0   0
+ CE02642          BB/-
+                                                                               0
+              TRX-004  U BL-RSL   83  0    -                  2
+              TRX-005  U BL-RSL   52  0    - MBCCH+CBCH    P  2
+              TRX-006  U BL-RSL   77  0    -                  2
+ 20501 12643 BTS-0792  U WO                                                0   0
+ CE02643          BB/-
+                                                                               0
+              TRX-009  U BL-RSL   54  0    - MBCCH+CBCH    P  2
+              TRX-010  U BL-RSL   68  0    -                  2
+
+BCF-0265  FLEXI MULTI  U WO                                   3  OM265 WO
+ 20501 12651 BTS-0793  U WO                                                2   2
+ CE02651          BB/-
+                                                                               6
+              TRX-001  U WO      629  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO      656  0    -                  3
+ 20501 12652 BTS-0794  U WO                                                1   3
+ CE02652          BB/-
+                                                                               1
+              TRX-004  U WO      640  0    -                  3
+              TRX-005  U WO      614  0    - MBCCH+CBCH    P  3
+ 20501 12653 BTS-0795  U WO                                                0   1
+ CE02653          BB/-
+                                                                               4
+              TRX-009  U WO      626  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO      642  0    -                  3
+
+BCF-0267  FLEXI MULTI  U WO                                   1  OM267 WO
+ 20502 12671 BTS-0799  U WO                                                0   0
+ CE02671          BB/-
+                                                                               2
+              TRX-001  U WO       47  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO       81  0    -                  1
+ 20502 12672 BTS-0800  U WO                                                0   1
+ CE02672          BB/-
+                                                                               4
+              TRX-005  U WO       45  0    - MBCCH+CBCH    P  1
+              TRX-006  U WO       70  0    -                  1
+ 20502 12673 BTS-0801  U WO                                                1   1
+ CE02673          BB/-
+                                                                               9
+              TRX-009  U WO       51  0    - MBCCH+CBCH    P  1
+              TRX-011  U WO       74  0    -                  1
+
+BCF-0268  FLEXI MULTI  U WO                                   1  OM268 WO
+ 20502 12681 BTS-0802  U WO                                                0   2
+ CE02681          BB/-
+                                                                               6
+              TRX-001  U WO      626  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO      643  0    -                  1
+ 20502 12682 BTS-0803  U WO                                                0   1
+ CE02682          BB/-
+                                                                               5
+              TRX-004  U WO      639  0    -                  1
+              TRX-005  U WO      631  0    - MBCCH+CBCH    P  1
+ 20502 12683 BTS-0804  U WO                                                0   0
+ CE02683          BB/-
+                                                                               4
+              TRX-007  U WO      641  0    -                  1
+              TRX-009  U WO      618  0    - MBCCH+CBCH    P  1
+
+BCF-0272  FLEXI MULTI  U WO                                   3  OM272 WO
+ 20501 12721 BTS-0814  U WO                                                0   1
+ CE02721          BB/-
+                                                                               4
+              TRX-001  U WO       54  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       77  0    -                  3
+              TRX-008  U WO       68  0    -                  3
+ 20501 12722 BTS-0815  U WO                                                0   1
+ CE02722          BB/-
+                                                                               1
+              TRX-005  U WO       48  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       80  0    -                  3
+ 20501 12723 BTS-0816  U WO                                                0   0
+ CE02723          BB/-
+                                                                               9
+              TRX-003  U WO       56  0    -                  3
+              TRX-009  U WO       51  0    - MBCCH+CBCH    P  3
+              TRX-011  U WO       83  0    -                  3
+
+BCF-0273  FLEXI MULTI  U WO                                   1  OM273 WO
+ 20501 12731 BTS-0817  U WO                                                4   4
+ CE02731          BB/-
+                                                                               6
+              TRX-001  U WO       43  0    - MBCCH+CBCH    P  1
+              TRX-003  U WO       76  0    -                  1
+              TRX-004  U WO       79  0    -                  1
+ 20501 12732 BTS-0818  U WO                                                1   1
+ CE02732          BB/-
+                                                                              12
+              TRX-005  U WO       60  0    - MBCCH+CBCH    P  1
+              TRX-006  U WO       81  0    -                  1
+              TRX-008  U WO       78  0    -                  1
+ 20501 12733 BTS-0819  U WO                                                0   1
+ CE02733          BB/-
+                                                                               5
+              TRX-009  U WO       58  0    - MBCCH+CBCH    P  1
+              TRX-010  U WO       73  0    -                  1
+              TRX-011  U WO       71  0    -                  1
+
+BCF-0274  FLEXI MULTI  U WO                                   2  OM274 WO
+ 20501 12741 BTS-0820  U WO                                                0   0
+ CE02741          BB/-
+                                                                               2
+              TRX-001  U WO      614  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO      666  0    -                  2
+ 20501 12742 BTS-0821  U WO                                                0   2
+ CE02742          BB/-
+                                                                               1
+              TRX-005  U WO      612  0    - MBCCH+CBCH    P  2
+ 20501 12743 BTS-0822  U WO                                                1   2
+ CE02743          BB/-
+                                                                               6
+              TRX-009  U WO      622  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO      652  0    -                  2
+
+BCF-0275  FLEXI MULTI  U WO                                   3  OM275 WO
+ 20502 12751 BTS-0823  U WO                                                1   2
+ CE02751          BB/-
+                                                                               4
+              TRX-004  U WO       51  0    - MBCCH+CBCH    P  3
+              TRX-011  U WO       77  0    -                  3
+ 20502 12752 BTS-0824  U WO                                                0   1
+ CE02752          BB/-
+                                                                               3
+              TRX-005  U WO       54  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       73  0    -                  3
+ 20502 12753 BTS-0825  U WO                                                0   1
+ CE02753          BB/-
+                                                                               5
+              TRX-009  U WO       48  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO       83  0    -                  3
+
+BCF-0277  FLEXI MULTI  U WO                                   1  OM277 WO
+ 20502 12771 BTS-0829  U WO                                                0   0
+ CE02771          BB/-
+                                                                               6
+              TRX-001  U WO       55  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO       72  0    -                  1
+ 20502 12772 BTS-0830  U WO                                                0   3
+ CE02772          BB/-
+                                                                               6
+              TRX-005  U WO       49  0    - MBCCH+CBCH    P  1
+              TRX-006  U WO       69  0    -                  1
+ 20502 12773 BTS-0831  U WO                                                0   1
+ CE02773          BB/-
+                                                                               5
+              TRX-009  U WO       51  0    - MBCCH+CBCH    P  1
+              TRX-010  U WO       61  0    -                  1
+
+BCF-0279  FLEXI MULTI  U BL-RST                               3  OM279 BL
+ 20501 12791 BTS-0835  U BL-RST                                            0   0
+ CE02791          BB/-
+                                                                               0
+              TRX-001  U BL-RST   78  0    -               P  3
+              TRX-002  U BL-RST   56  0    - MBCCH+CBCH       3
+ 20501 12792 BTS-0836  U BL-RST                                            0   0
+ CE02792          BB/-
+                                                                               0
+              TRX-005  U BL-RST   53  0    - MBCCH+CBCH    P  3
+              TRX-006  U BL-RST   72  0    -                  3
+ 20501 12793 BTS-0837  U BL-RST                                            0   0
+ CE02793          BB/-
+                                                                               0
+              TRX-009  U BL-RST   50  0    - MBCCH+CBCH    P  3
+              TRX-010  U BL-RST   76  0    -                  3
+
+BCF-0280  FLEXI MULTI  U WO                                   1  OM280 WO
+ 20502 12801 BTS-0838  U WO                                                0   1
+ CE02801          BB/-
+                                                                               2
+              TRX-001  U WO       48  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO       51  0    -                  1
+ 20502 12802 BTS-0839  U WO                                                0   0
+ CE02802          BB/-
+                                                                               3
+              TRX-005  U WO       74  0    - MBCCH+CBCH    P  1
+              TRX-006  U WO       76  0    -                  1
+ 20502 12803 BTS-0840  U WO                                                0   0
+ CE02803          BB/-
+                                                                               5
+              TRX-008  U WO       80  0    -                  1
+              TRX-009  U WO       44  0    - MBCCH+CBCH    P  1
+              TRX-010  U WO       57  0    -                  1
+
+BCF-0281  FLEXI MULTI  U WO                                   1  OM281 WO
+ 20502 12811 BTS-0841  U WO                                                0   1
+ CE02811          BB/-
+                                                                               2
+              TRX-001  U WO       47  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO       63  0    -                  1
+ 20502 12812 BTS-0842  U WO                                                0   1
+ CE02812          BB/-
+                                                                               4
+              TRX-005  U WO       48  0    - MBCCH+CBCH    P  1
+              TRX-006  U WO       79  0    -                  1
+ 20502 12813 BTS-0843  U WO                                                0   3
+ CE02813          BB/-
+                                                                               5
+              TRX-009  U WO       55  0    - MBCCH+CBCH    P  1
+              TRX-010  U WO       69  0    -                  1
+
+BCF-0282  FLEXI MULTI  U WO                                   2  OM282 WO
+ 20502 12821 BTS-0844  U WO                                                0   2
+ CE02821          BB/-
+                                                                               3
+              TRX-001  U WO       45  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO       70  0    -                  2
+ 20502 12822 BTS-0845  U WO                                                1   1
+ CE02822          BB/-
+                                                                               5
+              TRX-005  U WO       50  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO       78  0    -                  2
+ 20502 12823 BTS-0846  U WO                                                0   3
+ CE02823          BB/-
+                                                                               5
+              TRX-009  U WO       52  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO       62  0    -                  2
+
+BCF-0294  FLEXI MULTI  U WO                                   1  OM294 WO
+ 20502 12941 BTS-0880  U WO                                                1   1
+ CE02941          BB/-
+                                                                               4
+              TRX-001  U WO       51  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO       72  0    -                  1
+ 20502 12942 BTS-0881  U WO                                                0   0
+ CE02942          BB/-
+                                                                               2
+              TRX-005  U WO       47  0    - MBCCH+CBCH    P  1
+              TRX-006  U WO       71  0    -                  1
+ 20502 12943 BTS-0882  U WO                                                1   1
+ CE02943          BB/-
+                                                                               6
+              TRX-009  U WO       62  0    - MBCCH+CBCH    P  1
+              TRX-010  U WO       76  0    -                  1
+
+BCF-0295  FLEXI MULTI  U WO                                   3  OM295 WO
+ 20502 12951 BTS-0883  U WO                                                0   0
+ CE02951          BB/-
+                                                                               2
+              TRX-001  U WO       57  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       77  0    -                  3
+ 20502 12952 BTS-0884  U WO                                                0   0
+ CE02952          BB/-
+                                                                               4
+              TRX-005  U WO       49  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       74  0    -                  3
+ 20502 12953 BTS-0885  U WO                                                0   0
+ CE02953          BB/-
+                                                                               2
+              TRX-009  U WO       59  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO       79  0    -                  3
+
+BCF-0296  FLEXI MULTI  U WO                                   2  OM296 WO
+ 20502 12961 BTS-0886  U WO                                                7   1
+ CE02961          BB/-
+                                                                               4
+              TRX-001  U WO       50  0    - MBCCH+CBCH    P  2
+              TRX-003  U WO       71  0    -                  2
+ 20502 12962 BTS-0887  U WO                                                3   0
+ CE02962          BB/-
+                                                                               5
+              TRX-005  U WO       49  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO       81  0    -                  2
+ 20502 12963 BTS-0888  U WO                                                2   1
+ CE02963          BB/-
+                                                                               5
+              TRX-009  U WO       45  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO       79  0    -                  2
+
+BCF-0297  FLEXI MULTI  U WO                                   3  OM297 BL
+ 20502 12971 BTS-0889  U BL-BTS                                            0   0
+ CE02971          BB/-
+                                                                               0
+              TRX-001  U BL-BTS   58  0    - MBCCH+CBCH    P  3
+              TRX-002  U BL-TRX   65  0    -                  3
+ 20502 12972 BTS-0890  U BL-BTS                                            0   0
+ CE02972          BB/-
+                                                                               0
+              TRX-005  U BL-BTS   53  0    - MBCCH+CBCH    P  3
+              TRX-006  U BL-TRX   82  0    -                  3
+ 20502 12973 BTS-0891  U BL-BTS                                            0   0
+ CE02973          BB/-
+                                                                               0
+              TRX-009  U BL-BTS   55  0    - MBCCH+CBCH    P  3
+              TRX-010  U BL-TRX   69  0    -                  3
+
+BCF-0298  FLEXI MULTI  U WO                                   1  OM298 WO
+ 20502 12981 BTS-0892  U WO                                                0   1
+ CE02981          BB/-
+                                                                               4
+              TRX-001  U WO       58  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO       73  0    -                  1
+ 20502 12982 BTS-0893  U WO                                                0   0
+ CE02982          BB/-
+                                                                               4
+              TRX-005  U WO       60  0    - MBCCH+CBCH    P  1
+              TRX-006  U WO       75  0    -                  1
+ 20502 12983 BTS-0894  U WO                                                4   4
+ CE02983          BB/-
+                                                                               3
+              TRX-009  U WO       52  0    - MBCCH+CBCH    P  1
+              TRX-010  U WO       77  0    -                  1
+
+BCF-0299  FLEXI MULTI  U WO                                   1  OM299 WO
+ 20502 12991 BTS-0895  U WO                                                0   0
+ CE02991          BB/-
+                                                                               5
+              TRX-001  U WO      632  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO      673  0    -                  1
+ 20502 12992 BTS-0896  U WO                                                5   0
+ CE02992          BB/-
+                                                                               5
+              TRX-005  U WO      620  0    - MBCCH+CBCH    P  1
+              TRX-006  U WO      676  0    -                  1
+              TRX-007  U WO      658  0    -                  1
+ 20502 12993 BTS-0897  U WO                                                0   0
+ CE02993          BB/-
+                                                                               5
+              TRX-009  U WO      637  0    - MBCCH+CBCH    P  1
+              TRX-010  U WO      652  0    -                  1
+
+BCF-0301  FLEXI MULTI  U WO                                   2  OM301 BL
+ 20501 13011 BTS-0901  U WO                                                0   0
+ CE03011          BB/-
+                                                                               0
+              TRX-001  U BL-RSL  630  0    - MBCCH+CBCH    P  2
+              TRX-002  U BL-RSL  648  0    -                  2
+ 20501 13012 BTS-0902  U WO                                                0   0
+ CE03012          BB/-
+                                                                               0
+              TRX-005  U BL-RSL  616  0    - MBCCH+CBCH    P  2
+              TRX-006  U BL-RSL  656  0    -                  2
+ 20501 13013 BTS-0903  U WO                                                0   0
+ CE03013          BB/-
+                                                                               0
+              TRX-009  U BL-RSL  634  0    - MBCCH+CBCH    P  2
+              TRX-010  U BL-RSL  685  0    -                  2
+
+BCF-0302  FLEXI MULTI  U WO                                   2  OM302 BL
+ 20501 13021 BTS-0904  U WO                                                0   0
+ CE03021          BB/-
+                                                                               0
+              TRX-001  U BL-RSL   44  0    - MBCCH+CBCH    P  2
+              TRX-002  U BL-RSL   80  0    -                  2
+ 20501 13022 BTS-0905  U WO                                                0   0
+ CE03022          BB/-
+                                                                               0
+              TRX-005  U BL-RSL   51  0    - MBCCH+CBCH    P  2
+              TRX-006  U BL-RSL   83  0    -                  2
+ 20501 13023 BTS-0906  U WO                                                0   0
+ CE03023          BB/-
+                                                                               0
+              TRX-009  U BL-RSL   69  0    - MBCCH+CBCH    P  2
+              TRX-011  U BL-RSL   67  0    -                  2
+
+BCF-0303  FLEXI MULTI  U WO                                   3  OM303 WO
+ 20502 13031 BTS-0907  U WO                                                0   0
+ CE03031          BB/-
+                                                                               3
+              TRX-001  U WO       48  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       66  0    -                  3
+ 20502 13032 BTS-0908  U WO                                                0   0
+ CE03032          BB/-
+                                                                               2
+              TRX-005  U WO       44  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       67  0    -                  3
+ 20502 13033 BTS-0909  U WO                                                0   0
+ CE03033          BB/-
+                                                                               3
+              TRX-009  U WO       50  0    - MBCCH+CBCH    P  3
+              TRX-011  U WO       81  0    -                  3
+
+BCF-0307  FLEXI MULTI  U WO                                   3  OM307 WO
+ 20502 13071 BTS-0919  U WO                                                1   0
+ CE03071          BB/-
+                                                                               4
+              TRX-001  U WO       50  0    - MBCCH+CBCH    P  3
+ 20502 13072 BTS-0920  U WO                                                0   0
+ CE03072          BB/-
+                                                                               1
+              TRX-005  U WO       78  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       59  0    -                  3
+ 20502 13073 BTS-0921  U WO                                                4   1
+ CE03073          BB/-
+                                                                               6
+              TRX-009  U WO       46  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO       68  0    -                  3
+
+BCF-0308  FLEXI MULTI  U WO                                   2  OM308 WO
+ 20502 13081 BTS-0922  U WO                                                1   1
+ CE03081          BB/-
+                                                                               2
+              TRX-001  U WO       44  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO       71  0    -                  2
+ 20502 13082 BTS-0923  U WO                                                3   2
+ CE03082          BB/-
+                                                                               5
+              TRX-005  U WO       54  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO       82  0    -                  2
+ 20502 13083 BTS-0924  U WO                                                0   0
+ CE03083          BB/-
+                                                                               2
+              TRX-009  U WO       52  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO       79  0    -                  2
+
+BCF-0309  FLEXI MULTI  U WO                                   1  OM309 BL
+ 20502 13091 BTS-0925  U WO                                                0   0
+ CE03091          BB/-
+                                                                               0
+              TRX-001  U BL-RSL  628  0    - MBCCH+CBCH    P  1
+              TRX-002  U BL-RSL  644  0    -                  1
+ 20502 13092 BTS-0926  U WO                                                0   0
+ CE03092          BB/-
+                                                                               0
+              TRX-005  U BL-RSL  624  0    - MBCCH+CBCH    P  1
+              TRX-006  U BL-RSL  666  0    -                  1
+ 20502 13093 BTS-0927  U WO                                                0   0
+ CE03093          BB/-
+                                                                               0
+              TRX-009  U BL-RSL  611  0    - MBCCH+CBCH    P  1
+              TRX-010  U BL-RSL  650  0    -                  1
+
+BCF-0317  FLEXI MULTI  U WO                                   2  OM317 BL
+ 20502 13171 BTS-0949  U WO                                                0   0
+ CE03171          BB/-
+                                                                               0
+              TRX-001  U BL-RSL   44  0    - MBCCH+CBCH    P  2
+              TRX-002  U BL-RSL   80  0    -                  2
+ 20502 13172 BTS-0950  U WO                                                0   0
+ CE03172          BB/-
+                                                                               0
+              TRX-005  U BL-RSL   56  0    - MBCCH+CBCH    P  2
+              TRX-006  U BL-RSL   64  0    -                  2
+ 20502 13173 BTS-0951  U WO                                                0   0
+ CE03173          BB/-
+                                                                               0
+              TRX-009  U BL-RSL   47  0    - MBCCH+CBCH    P  2
+              TRX-010  U BL-RSL   68  0    -                  2
+
+BCF-0321  FLEXI MULTI  U WO                                   3  OM321 WO
+ 20501 13211 BTS-0961  U WO                                                0   0
+ CE03211          BB/-
+                                                                               3
+              TRX-001  U WO       48  0    - MBCCH+CBCH    P  3
+              TRX-003  U WO       83  0    -                  3
+ 20501 13212 BTS-0962  U WO                                                0   1
+ CE03212          BB/-
+                                                                               1
+              TRX-010  U WO       50  0    - MBCCH+CBCH    P  3
+              TRX-012  U WO       53  0    -                  3
+              TRX-015  U WO       75  0    -                  3
+ 20501 13213 BTS-0963  U WO                                                1   4
+ CE03213          BB/-
+                                                                               6
+              TRX-002  U WO       65  0    -                  2
+              TRX-004  U WO       55  0    -                  2
+              TRX-009  U WO       43  0    - MBCCH+CBCH    P  3
+              TRX-013  U WO       77  0    -                  3
+              TRX-014  U WO       79  0    -                  3
+
+BCF-0322  FLEXI MULTI  U WO                                   1  OM322 WO
+ 20501 13221 BTS-0964  U WO                                                0   1
+ CE03221          BB/-
+                                                                               4
+              TRX-001  U WO       52  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO       67  0    -                  1
+ 20501 13222 BTS-0965  U WO                                                0   3
+ CE03222          BB/-
+                                                                               2
+              TRX-005  U WO       49  0    - MBCCH+CBCH    P  1
+              TRX-006  U WO       80  0    -                  1
+ 20501 13223 BTS-0966  U BL-BTS                                            0   0
+ CE03223          BB/-
+                                                                               0
+              TRX-009  U BL-BTS   46  0    - MBCCH+CBCH    P  1
+              TRX-010  U BL-TRX   71  0    -                  1
+
+BCF-0323  FLEXI MULTI  U WO                                   2  OM323 WO
+ 20501 13231 BTS-0967  U WO                                                2   2
+ CE03231          BB/-
+                                                                               4
+              TRX-001  U WO       50  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO       79  0    -                  2
+              TRX-007  U WO       81  0    -                  2
+ 20501 13232 BTS-0968  U WO                                                0   2
+ CE03232          BB/-
+                                                                               5
+              TRX-005  U WO       44  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO       65  0    -                  2
+ 20501 13233 BTS-0969  U WO                                                0   2
+ CE03233          BB/-
+                                                                               1
+              TRX-009  U WO       55  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO       69  0    -                  2
+
+BCF-0327  FLEXI MULTI  U WO                                   2  OM327 WO
+ 20505 13271 BTS-0979  U BL-BTS                                            0   0
+ CE03271          BB/-
+                                                                               0
+              TRX-001  U BL-BTS   52  0    - MBCCH+CBCH    P  2
+              TRX-002  U BL-TRX   62  0    -                  2
+ 20505 13272 BTS-0980  U WO                                                0   4
+ CE03272          BB/-
+                                                                               5
+              TRX-004  U WO       70  0    -                  2
+              TRX-005  U WO       78  0    - MBCCH+CBCH    P  2
+ 20505 13273 BTS-0981  U BL-BTS                                            0   0
+ CE03273          BB/-
+                                                                               0
+              TRX-009  U BL-BTS   51  0    - MBCCH+CBCH    P  2
+              TRX-010  U BL-TRX   65  0    -                  2
+ 20505 00105 BTS-2479  U BL-BTS                                            0   0
+ CE03270          BB/-
+                                                                               0
+              TRX-013  U BL-BTS   60  0    - MBCCH+CBCH    P  2
+              TRX-014  U BL-TRX   72  0    -                  2
+
+BCF-0330  FLEXI MULTI  U WO                                   3  OM330 WO
+ 20502 13301 BTS-0988  U WO                                                1   0
+ CE03301          BB/-
+                                                                               4
+              TRX-001  U WO      626  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO      647  0    -                  3
+ 20502 13302 BTS-0989  U WO                                                0   1
+ CE03302          BB/-
+                                                                               5
+              TRX-005  U WO      628  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO      674  0    -                  3
+ 20502 13303 BTS-0990  U WO                                                0   1
+ CE03303          BB/-
+                                                                               5
+              TRX-009  U WO      634  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO      685  0    -                  3
+
+BCF-0331  FLEXI MULTI  U WO                                   2  OM331 WO
+ 20502 13311 BTS-0991  U WO                                                0   1
+ CE03311          BB/-
+                                                                               4
+              TRX-001  U WO       55  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO       76  0    -                  2
+ 20502 13312 BTS-0992  U WO                                                0   1
+ CE03312          BB/-
+                                                                               3
+              TRX-005  U WO       57  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO       66  0    -                  2
+ 20502 13313 BTS-0993  U WO                                                0   1
+ CE03313          BB/-
+                                                                               2
+              TRX-009  U WO       59  0    - MBCCH+CBCH    P  2
+              TRX-012  U WO       78  0    -                  2
+
+BCF-0332  FLEXI MULTI  U BL-RST                               1  OM332 BL
+ 20502 13321 BTS-0994  U BL-RST                                            0   0
+ CE03321          BB/-
+                                                                               0
+              TRX-001  U BL-RST   50  0    - MBCCH+CBCH    P  1
+              TRX-002  U BL-RST   57  0    -                  1
+ 20502 13322 BTS-0995  U BL-RST                                            0   0
+ CE03322          BB/-
+                                                                               0
+              TRX-005  U BL-RST   51  0    - MBCCH+CBCH    P  1
+              TRX-006  U BL-RST   71  0    -                  1
+ 20502 13323 BTS-0996  U BL-RST                                            0   0
+ CE03323          BB/-
+                                                                               0
+              TRX-009  U BL-RST   65  0    - MBCCH+CBCH    P  1
+              TRX-010  U BL-RST   67  0    -                  1
+
+BCF-0333  FLEXI MULTI  U WO                                   2  OM333 BL
+ 20502 13331 BTS-0997  U WO                                                0   0
+ CE03331          BB/-
+                                                                               0
+              TRX-001  U BL-RSL   54  0    - MBCCH+CBCH    P  2
+              TRX-003  U BL-RSL   82  0    -                  2
+ 20502 13332 BTS-0998  U WO                                                0   0
+ CE03332          BB/-
+                                                                               0
+              TRX-005  U BL-RSL   56  0    - MBCCH+CBCH    P  2
+              TRX-006  U BL-RSL   73  0    -                  2
+ 20502 13333 BTS-0999  U WO                                                0   0
+ CE03333          BB/-
+                                                                               0
+              TRX-009  U BL-RSL   74  0    - MBCCH+CBCH    P  2
+              TRX-010  U BL-RSL   64  0    -                  2
+
+BCF-0334  FLEXI MULTI  U WO                                   3  OM334 WO
+ 20502 13341 BTS-1000  U WO                                                0   3
+ CE03341          BB/-
+                                                                               2
+              TRX-001  U WO       48  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       65  0    -                  3
+ 20502 13342 BTS-1001  U WO                                                0   2
+ CE03342          BB/-
+                                                                               8
+              TRX-004  U WO       57  0    -                  3
+              TRX-005  U WO       43  0    - MBCCH+CBCH    P  3
+              TRX-007  U WO       80  0    -                  3
+              TRX-008  U WO       67  0    -                  3
+ 20502 13343 BTS-1002  U WO                                                0   0
+ CE03343          BB/-
+                                                                               4
+              TRX-009  U WO       58  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO       64  0    -                  3
+
+BCF-0342  FLEXI MULTI  U WO                                   1  OM342 BL
+ 20501 13421 BTS-1024  U WO                                                0   0
+ CE03421          BB/-
+                                                                               0
+              TRX-001  U BL-RSL   59  0    - MBCCH+CBCH    P  1
+              TRX-012  U BL-RSL   56  0    -                  1
+ 20501 13422 BTS-1025  U WO                                                0   0
+ CE03422          BB/-
+                                                                               0
+              TRX-005  U BL-RSL   52  0    - MBCCH+CBCH    P  1
+              TRX-006  U BL-RSL   73  0    -                  1
+              TRX-007  U BL-RSL   75  0    -                  1
+              TRX-008  U BL-RSL   81  0    -                  1
+ 20501 13423 BTS-1026  U WO                                                0   0
+ CE03423          BB/-
+                                                                               0
+              TRX-002  U BL-RSL   44  0    -                  1
+              TRX-003  U BL-RSL   66  0    -                  1
+              TRX-004  U BL-RSL   50  0    -                  1
+              TRX-009  U BL-RSL   46  0    - MBCCH+CBCH    P  1
+              TRX-010  U BL-RSL   70  0    -                  1
+              TRX-011  U BL-RSL   78  0    -                  1
+
+BCF-0343  FLEXI MULTI  U WO                                   2  OM343 BL
+ 20501 13431 BTS-1027  U BL-BTS                                            0   0
+ CE03431          BB/-
+                                                                               0
+              TRX-001  U BL-BTS   49  0    - MBCCH+CBCH    P  2
+              TRX-002  U BL-TRX   60  0    -                  2
+              TRX-003  U BL-TRX   69  0    -                  2
+              TRX-004  U BL-TRX   83  0    -                  2
+              TRX-013  U BL-TRX   71  0    -                  2
+ 20501 13432 BTS-1028  U WO                                                0   0
+ CE03432          BB/-
+                                                                               0
+              TRX-005  U BL-RSL   58  0    - MBCCH+CBCH    P  2
+              TRX-006  U BL-RSL   57  0    -                  2
+              TRX-007  U BL-RSL   64  0    -                  2
+              TRX-008  U BL-RSL   62  0    -                  2
+ 20501 13433 BTS-1029  U WO                                                0   0
+ CE03433          BB/-
+                                                                               0
+              TRX-009  U BL-RSL   74  0    -                  2
+              TRX-010  U BL-RSL   54  0    - MBCCH+CBCH    P  2
+              TRX-011  U BL-RSL   82  0    -                  2
+              TRX-012  U BL-RSL   59  0    -                  2
+
+BCF-0346  FLEXI MULTI  U WO                                   2  OM346 WO
+ 20505 13461 BTS-1036  U WO                                                1   2
+ CE03461          BB/-
+                                                                               6
+              TRX-001  U WO      630  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO      626  0    -                  2
+              TRX-008  U WO      654  0    -                  2
+ 20505 13462 BTS-1037  U WO                                                0   1
+ CE03462          BB/-
+                                                                               1
+              TRX-004  U WO      656  0    -                  2
+              TRX-005  U WO      638  0    - MBCCH+CBCH    P  2
+ 20505 13463 BTS-1038  U WO                                                0   0
+ CE03463          BB/-
+                                                                               4
+              TRX-009  U WO      632  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO      649  0    -                  2
+
+BCF-0347  FLEXI MULTI  U WO                                   2  OM347 WO
+ 20501 13471 BTS-1039  U WO                                                0   5
+ CE03471          BB/-
+                                                                              12
+              TRX-001  U WO       49  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO       72  0    -                  2
+              TRX-003  U WO       80  0    -                  2
+              TRX-004  U WO       78  0    -                  2
+              TRX-013  U WO       67  0    -                  2
+              TRX-014  U WO       62  0    -                  2
+ 20501 13472 BTS-1040  U WO                                                0   2
+ CE03472          BB/-
+                                                                               4
+              TRX-005  U WO       53  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO       61  0    -                  2
+              TRX-007  U WO       70  0    -                  2
+              TRX-008  U WO       57  0    -                  2
+ 20501 13473 BTS-1041  U WO                                                0   0
+ CE03473          BB/-
+                                                                               2
+              TRX-009  U WO       43  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO       69  0    -                  2
+
+BCF-0348  FLEXI MULTI  U WO                                   3  OM348 WO
+ 20501 13481 BTS-1042  U WO                                                2   0
+ CE03481          BB/-
+                                                                              12
+              TRX-001  U WO       54  0    - MBCCH+CBCH    P  3
+              TRX-003  U WO       63  0    -                  3
+              TRX-013  U WO       71  0    -                  3
+              TRX-014  U WO       74  0    -                  3
+ 20501 13482 BTS-1043  U WO                                                0   0
+ CE03482          BB/-
+                                                                               6
+              TRX-005  U WO       81  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       65  0    -                  3
+              TRX-012  U WO       59  0    -                  3
+ 20501 13483 BTS-1044  U WO                                                4   0
+ CE03483          BB/-
+                                                                               6
+              TRX-009  U WO       51  0    - MBCCH+CBCH    P  3
+              TRX-011  U WO       46  0    -                  3
+
+BCF-0350  FLEXI MULTI  U WO                                   2  OM350 WO
+ 20501 13501 BTS-1048  U WO                                                1   4
+ CE03501          BB/-
+                                                                              12
+              TRX-001  U WO       49  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO       76  0    -                  2
+              TRX-003  U WO       74  0    -                  2
+              TRX-004  U WO       66  0    -                  2
+              TRX-013  U WO       64  0    -                  2
+              TRX-015  U WO       55  0    -                  2
+ 20501 13502 BTS-1049  U WO                                                0   1
+ CE03502          BB/-
+                                                                               3
+              TRX-005  U WO       83  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO       80  0    -                  2
+ 20501 13503 BTS-1050  U WO                                                2   2
+ CE03503          BB/-
+                                                                              13
+              TRX-007  U WO       63  0    -                  2
+              TRX-008  U WO       70  0    -                  2
+              TRX-009  U WO       57  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO       71  0    -                  2
+              TRX-011  U WO       68  0    -                  2
+              TRX-012  U WO       61  0    -                  2
+
+BCF-0351  FLEXI MULTI  U WO                                   3  OM351 WO
+ 20501 13511 BTS-1051  U WO                                                0   0
+ CE03511          BB/-
+                                                                               6
+              TRX-001  U WO       43  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       78  0    -                  3
+ 20501 13512 BTS-1052  U WO                                                0   0
+ CE03512          BB/-
+                                                                               4
+              TRX-005  U WO       52  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       64  0    -                  3
+ 20501 13513 BTS-1053  U WO                                                3   0
+ CE03513          BB/-
+                                                                               3
+              TRX-003  U WO       45  0    -                  3
+              TRX-004  U WO       62  0    -                  3
+              TRX-009  U WO       47  0    - MBCCH+CBCH    P  3
+
+BCF-0352  FLEXI MULTI  U WO                                   1  OM352 WO
+ 20501 13521 BTS-1054  U WO                                                0   1
+ CE03521          BB/-
+                                                                               4
+              TRX-006  U WO       50  0    -                  1
+              TRX-007  U WO       56  0    - MBCCH+CBCH    P  1
+              TRX-008  U WO       82  0    -                  1
+ 20501 13522 BTS-1055  U WO                                                0   3
+ CE03522          BB/-
+                                                                               4
+              TRX-012  U WO       59  0    - MBCCH+CBCH    P  1
+              TRX-013  U WO       60  0    -                  1
+ 20501 13523 BTS-1056  U WO                                                0   0
+ CE03523          BB/-
+                                                                               6
+              TRX-009  U WO       44  0    - MBCCH+CBCH    P  1
+              TRX-010  U WO       77  0    -                  1
+              TRX-011  U WO       63  0    -                  1
+
+BCF-0353  FLEXI MULTI  U WO                                   2  OM353 WO
+ 20501 13531 BTS-1057  U BL-BTS                                            0   0
+ CE03531          BB/-
+                                                                               0
+              TRX-002  U BL-BTS   53  0    - MBCCH+CBCH    P  2
+              TRX-004  U BL-TRX   74  0    -                  2
+ 20501 13532 BTS-1058  U WO                                                1   1
+ CE03532          BB/-
+                                                                               4
+              TRX-001  U WO       69  0    -                  2
+              TRX-005  U WO       82  0    -                  2
+              TRX-007  U WO       76  0    -                  2
+              TRX-008  U WO       61  0    - MBCCH+CBCH    P  2
+ 20501 13533 BTS-1059  U BL-BTS                                            0   0
+ CE03533          BB/-
+                                                                               0
+              TRX-009  U BL-BTS   47  0    - MBCCH+CBCH    P  2
+              TRX-010  U BL-TRX   72  0    -                  2
+
+BCF-0354  FLEXI MULTI  U WO                                   3  OM354 WO
+ 20505 13541 BTS-1060  U WO                                                1   0
+ CE03541          BB/-
+                                                                               9
+              TRX-001  U WO       50  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       77  0    -                  3
+              TRX-003  U WO       71  0    -                  3
+              TRX-004  U WO       79  0    -                  3
+ 20505 13542 BTS-1061  U WO                                                0   1
+ CE03542          BB/-
+                                                                               2
+              TRX-005  U WO       44  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       67  0    -                  3
+              TRX-011  U WO       58  0    -                  3
+ 20505 13543 BTS-1062  U WO                                                0   1
+ CE03543          BB/-
+                                                                               4
+              TRX-009  U WO       54  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO       75  0    -                  3
+
+BCF-0355  FLEXI MULTI  U WO                                   2  OM355 WO
+ 20505 13551 BTS-1063  U WO                                                2   3
+ CE03551          BB/-
+                                                                               4
+              TRX-001  U WO      620  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO      681  0    -                  2
+ 20505 13552 BTS-1064  U WO                                                0   0
+ CE03552          BB/-
+                                                                               4
+              TRX-005  U WO      626  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO      672  0    -                  2
+ 20505 13553 BTS-1065  U WO                                                1   5
+ CE03553          BB/-
+                                                                               4
+              TRX-009  U WO      630  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO      662  0    -                  2
+
+BCF-0356  FLEXI MULTI  U WO                                   1  OM356 WO
+ 20501 13561 BTS-1066  U WO                                                0   2
+ CE03561          BB/-
+                                                                               4
+              TRX-001  U WO       59  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO       69  0    -                  1
+ 20501 13562 BTS-1067  U WO                                                0   5
+ CE03562          BB/-
+                                                                               7
+              TRX-003  U WO       62  0    -                  1
+              TRX-005  U WO       49  0    - MBCCH+CBCH    P  1
+              TRX-008  U WO       73  0    -                  1
+ 20501 13563 BTS-1068  U WO                                                0   2
+ CE03563          BB/-
+                                                                               5
+              TRX-009  U WO       55  0    - MBCCH+CBCH    P  1
+              TRX-011  U WO       74  0    -                  1
+              TRX-012  U WO       82  0    -                  1
+
+BCF-0357  FLEXI MULTI  U WO                                   2  OM357 WO
+ 20501 27571 BTS-1069  U WO                                                1   7
+ CE03571          BB/-
+                                                                               4
+              TRX-001  U WO       46  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO       65  0    -                  2
+ 20501 27572 BTS-1070  U WO                                                0   3
+ CE03572          BB/-
+                                                                               4
+              TRX-005  U WO       52  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO       63  0    -                  2
+ 20501 27573 BTS-1071  U WO                                                0   4
+ CE03573          BB/-
+                                                                               4
+              TRX-009  U WO       61  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO       78  0    -                  2
+              TRX-011  U WO       64  0    -                  2
+
+BCF-0358  FLEXI MULTI  U WO                                   3  OM358 WO
+ 20502 13581 BTS-1072  U WO                                                0   1
+ CE03581          BB/-
+                                                                               9
+              TRX-001  U WO       45  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       76  0    -                  3
+ 20502 13582 BTS-1073  U WO                                                1   2
+ CE03582          BB/-
+                                                                               5
+              TRX-005  U WO       47  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       78  0    -                  3
+ 20502 13583 BTS-1074  U WO                                                0   0
+ CE03583          BB/-
+                                                                               4
+              TRX-009  U WO       50  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO       66  0    -                  3
+
+BCF-0359  FLEXI MULTI  U WO                                   1  OM359 WO
+ 20501 13591 BTS-1075  U WO                                                1   2
+ CE03591          BB/-
+                                                                               4
+              TRX-002  U WO       72  0    - MBCCH+CBCH       1
+              TRX-003  U WO       83  0    -                  1
+              TRX-015  U WO       60  0    -                  1
+ 20501 13592 BTS-1076  U WO                                                1   0
+ CE03592          BB/-
+                                                                               3
+              TRX-005  U WO       45  0    - MBCCH+CBCH    P  1
+              TRX-007  U WO       64  0    -                  1
+              TRX-008  U WO       74  0    -                  1
+              TRX-014  U WO       56  0    -                  1
+ 20501 13593 BTS-1077  U WO                                                0   3
+ CE03593          BB/-
+                                                                               3
+              TRX-001  U WO       69  0    -                  1
+              TRX-004  U WO       76  0    -                  1
+              TRX-009  U WO       58  0    - MBCCH+CBCH    P  1
+
+BCF-0360  FLEXI MULTI  U WO                                   2  OM360 WO
+ 20502 13601 BTS-1078  U WO                                                0   1
+ CE03601          BB/-
+                                                                               4
+              TRX-001  U WO       63  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO       66  0    -                  2
+ 20502 13602 BTS-1079  U WO                                                0   2
+ CE03602          BB/-
+                                                                               4
+              TRX-005  U WO       46  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO       72  0    -                  2
+ 20502 13603 BTS-1080  U WO                                                0   0
+ CE03603          BB/-
+                                                                               2
+              TRX-009  U WO       58  0    - MBCCH+CBCH    P  2
+
+BCF-0361  FLEXI MULTI  U WO                                   3  OM361 WO
+ 20501 13611 BTS-1081  U WO                                                1   2
+ CE03611          BB/-
+                                                                               6
+              TRX-001  U WO       54  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       70  0    -                  3
+ 20501 13612 BTS-1082  U WO                                                0   0
+ CE03612          BB/-
+                                                                               5
+              TRX-005  U WO       43  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       67  0    -                  3
+ 20501 13613 BTS-1083  U WO                                                0   0
+ CE03613          BB/-
+                                                                               6
+              TRX-003  U WO       82  0    -                  3
+              TRX-009  U WO       56  0    - MBCCH+CBCH    P  3
+              TRX-011  U WO       72  0    -                  3
+
+BCF-0362  FLEXI MULTI  U WO                                   2  OM362 WO
+ 20502 13621 BTS-1084  U WO                                                0   0
+ CE03621          BB/-
+                                                                               2
+              TRX-001  U WO       53  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO       71  0    -                  2
+ 20502 13622 BTS-1085  U WO                                                0   0
+ CE03622          BB/-
+                                                                               4
+              TRX-005  U WO       49  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO       79  0    -                  2
+ 20502 13623 BTS-1086  U WO                                                0   1
+ CE03623          BB/-
+                                                                               4
+              TRX-009  U WO       60  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO       68  0    -                  2
+
+BCF-0368  FLEXI MULTI  U WO                                   2  OM368 WO
+ 20505 13681 BTS-1102  U WO                                                3   1
+ CE03681          BB/-
+                                                                               3
+              TRX-001  U WO       50  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO       76  0    -                  2
+              TRX-011  U WO       55  0    -                  2
+ 20505 13682 BTS-1103  U WO                                                0   1
+ CE03682          BB/-
+                                                                               2
+              TRX-005  U WO       56  0    - MBCCH+CBCH    P  2
+              TRX-008  U WO       79  0    -                  2
+ 20505 13683 BTS-1104  U WO                                                1   0
+ CE03683          BB/-
+                                                                               2
+              TRX-009  U WO       70  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO       73  0    -                  2
+
+BCF-0369  FLEXI MULTI  U WO                                   3  OM369 WO
+ 20505 13691 BTS-1105  U WO                                                0   1
+ CE03691          BB/-
+                                                                               6
+              TRX-001  U WO       44  0    - MBCCH+CBCH    P  3
+              TRX-004  U WO       82  0    -                  3
+ 20505 13692 BTS-1106  U WO                                                0   2
+ CE03692          BB/-
+                                                                               4
+              TRX-005  U WO       54  0    - MBCCH+CBCH    P  3
+              TRX-015  U WO       79  0    -                  3
+ 20505 13693 BTS-1107  U WO                                                0   0
+ CE03693          BB/-
+                                                                               4
+              TRX-002  U WO       62  0    -                  3
+              TRX-009  U WO       60  0    - MBCCH+CBCH    P  3
+
+BCF-0370  FLEXI MULTI  U WO                                   1  OM370 BL
+ 20505 13701 BTS-1108  U WO                                                0   0
+ CE03701          BB/-
+                                                                               0
+              TRX-001  U BL-RSL   49  0    - MBCCH+CBCH    P  1
+              TRX-002  U BL-RSL   73  0    -                  1
+ 20505 13702 BTS-1109  U WO                                                0   0
+ CE03702          BB/-
+                                                                               0
+              TRX-005  U BL-RSL   55  0    - MBCCH+CBCH    P  1
+              TRX-006  U BL-RSL   77  0    -                  1
+ 20505 13703 BTS-1110  U WO                                                0   0
+ CE03703          BB/-
+                                                                               0
+              TRX-009  U BL-RSL   61  0    - MBCCH+CBCH    P  1
+              TRX-012  U BL-RSL   80  0    -                  1
+
+BCF-0371  FLEXI MULTI  U WO                                   2  OM371 WO
+ 20505 13711 BTS-1111  U WO                                                0   0
+ CE03711          BB/-
+                                                                               6
+              TRX-001  U WO       58  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO       69  0    -                  2
+ 20505 13712 BTS-1112  U WO                                                1   0
+ CE03712          BB/-
+                                                                              10
+              TRX-003  U WO       71  0    -                  2
+              TRX-005  U WO       47  0    - MBCCH+CBCH    P  2
+ 20505 13713 BTS-1113  U WO                                                0   0
+ CE03713          BB/-
+                                                                               5
+              TRX-009  U WO       53  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO       65  0    -                  2
+ 20505 13714 BTS-2611  U WO                                                0   2
+ CE03714          BB/-
+                                                                               4
+              TRX-006  U WO      653  0    -                  2
+              TRX-017  U WO      635  0    - MBCCH+CBCH    P  2
+
+BCF-0373  FLEXI MULTI  U WO                                   3  OM373 WO
+ 20505 13731 BTS-1117  U WO                                                0   0
+ CE03731          BB/-
+                                                                               4
+              TRX-001  U WO       51  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       68  0    -                  3
+ 20505 13732 BTS-1118  U WO                                                0   1
+ CE03732          BB/-
+                                                                               2
+              TRX-003  U WO       78  0    -                  3
+              TRX-005  U WO       49  0    - MBCCH+CBCH    P  3
+ 20505 13733 BTS-1119  U WO                                                0   0
+ CE03733          BB/-
+                                                                               5
+              TRX-009  U WO       47  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO       76  0    -                  3
+
+BCF-0374  FLEXI MULTI  U BL-RST                               3  OM374 BL
+ 20501 13741 BTS-1120  U BL-RST                                            0   0
+ CE03741          BB/-
+                                                                               0
+              TRX-001  U BL-RST  619  0    - MBCCH+CBCH    P  3
+              TRX-002  U BL-RST  640  0    -                  3
+ 20501 13742 BTS-1121  U BL-RST                                            0   0
+ CE03742          BB/-
+                                                                               0
+              TRX-005  U BL-RST  621  0    - MBCCH+CBCH    P  3
+              TRX-006  U BL-RST  682  0    -                  3
+ 20501 13743 BTS-1122  U BL-RST                                            0   0
+ CE03743          BB/-
+                                                                               0
+              TRX-009  U BL-RST  623  0    - MBCCH+CBCH    P  3
+              TRX-010  U BL-RST  657  0    -                  3
+
+BCF-0375  FLEXI MULTI  U WO                                   1  OM375 WO
+ 20505 13751 BTS-1123  U WO                                                0   0
+ CE03751          BB/-
+                                                                               1
+              TRX-001  U WO       74  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO       67  0    -                  1
+ 20505 13752 BTS-1124  U WO                                                0   1
+ CE03752          BB/-
+                                                                               1
+              TRX-005  U WO       66  0    - MBCCH+CBCH    P  1
+              TRX-006  U WO       79  0    -                  1
+ 20505 13753 BTS-1125  U WO                                                0   1
+ CE03753          BB/-
+                                                                               1
+              TRX-009  U WO       52  0    - MBCCH+CBCH    P  1
+              TRX-010  U WO       57  0    -                  1
+
+BCF-0376  FLEXI MULTI  U WO                                   2  OM376 WO
+ 20505 13761 BTS-1126  U BL-BTS                                            0   0
+ CE03761          BB/-
+                                                                               0
+              TRX-001  U BL-BTS   80  0    - MBCCH+CBCH    P  2
+              TRX-005  U BL-TRX   61  0    -                  2
+ 20505 13762 BTS-1127  U WO                                                2   2
+ CE03762          BB/-
+                                                                               5
+              TRX-004  U WO       83  0    -                  2
+              TRX-007  U WO       52  0    - MBCCH+CBCH       2
+ 20505 13763 BTS-1128  U BL-BTS                                            0   0
+ CE03763          BB/-
+                                                                               0
+              TRX-009  U BL-BTS   45  0    - MBCCH+CBCH    P  2
+              TRX-010  U BL-TRX   69  0    -                  2
+
+BCF-0377  FLEXI MULTI  U WO                                   3  OM377 WO
+ 20505 13771 BTS-1129  U WO                                                0   1
+ CE03771          BB/-
+                                                                               2
+              TRX-001  U WO       47  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       79  0    -                  3
+ 20505 13772 BTS-1130  U WO                                                0   2
+ CE03772          BB/-
+                                                                               4
+              TRX-003  U WO       81  0    -                  3
+              TRX-005  U WO       53  0    - MBCCH+CBCH    P  3
+ 20505 13773 BTS-1131  U WO                                                0   2
+ CE03773          BB/-
+                                                                               6
+              TRX-009  U WO       55  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO       63  0    -                  3
+
+BCF-0378  FLEXI MULTI  U WO                                   1  OM378 BL
+ 20505 13781 BTS-1132  U WO                                                0   0
+ CE03781          BB/-
+                                                                               0
+              TRX-001  U BL-RSL   59  0    - MBCCH+CBCH    P  1
+              TRX-002  U BL-RSL   83  0    -                  1
+ 20505 13782 BTS-1133  U BL-DGN                                            0   0
+ CE03782          BB/-
+                                                                               0
+              TRX-005  U BL-RSL   54  0    - MBCCH+CBCH    P  1
+              TRX-006  U BL-RSL   74  0    -                  1
+ 20505 13783 BTS-1134  U BL-DGN                                            0   0
+ CE03783          BB/-
+                                                                               0
+              TRX-009  U BL-RSL   44  0    - MBCCH+CBCH    P  1
+              TRX-010  U BL-RSL   80  0    -                  1
+
+BCF-0379  FLEXI MULTI  U WO                                   1  OM379 WO
+ 20505 13791 BTS-1135  U WO                                                0   1
+ CE03791          BB/-
+                                                                               3
+              TRX-003  U WO       76  0    - MBCCH+CBCH    P  1
+              TRX-004  U WO       75  0    -                  1
+ 20505 13792 BTS-1136  U WO                                                0   0
+ CE03792          BB/-
+                                                                               2
+              TRX-005  U WO       61  0    - MBCCH+CBCH    P  1
+              TRX-007  U WO       69  0    -                  1
+ 20505 13793 BTS-1137  U WO                                                0   1
+ CE03793          BB/-
+                                                                               5
+              TRX-009  U WO       57  0    - MBCCH+CBCH    P  1
+              TRX-010  U WO       67  0    -                  1
+ 20505 00106 BTS-2635  U WO                                                0   0
+ CE03790          BB/-
+                                                                               3
+              TRX-013  U WO       47  0    - MBCCH+CBCH    P  1
+              TRX-014  U WO       73  0    -                  1
+
+BCF-0382  FLEXI MULTI  U WO                                   3  OM382 WO
+ 20505 13821 BTS-1144  U WO                                                7   1
+ CE03821          BB/-
+                                                                               6
+              TRX-001  U WO      622  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO      668  0    -                  3
+              TRX-003  U WO      661  0    -                  3
+              TRX-004  U WO      666  0    -                  3
+ 20505 13822 BTS-1145  U WO                                                0   2
+ CE03822          BB/-
+                                                                               6
+              TRX-005  U WO      614  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO      655  0    -                  3
+ 20505 13823 BTS-1146  U WO                                                0   0
+ CE03823          BB/-
+                                                                               1
+              TRX-009  U WO      629  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO      649  0    -                  3
+
+BCF-0383  FLEXI MULTI  U WO                                   1  OM383 WO
+ 20505 13831 BTS-1147  U WO                                                1   2
+ CE03831          BB/-
+                                                                               5
+              TRX-001  U WO       47  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO       81  0    -                  1
+              TRX-004  U WO       67  0    -                  1
+ 20505 13832 BTS-1148  U WO                                                0   1
+ CE03832          BB/-
+                                                                               3
+              TRX-005  U WO       59  0    - MBCCH+CBCH    P  1
+              TRX-006  U WO       69  0    -                  1
+ 20505 13833 BTS-1149  U WO                                                0   0
+ CE03833          BB/-
+                                                                               5
+              TRX-009  U WO       54  0    - MBCCH+CBCH    P  1
+              TRX-010  U WO       75  0    -                  1
+
+BCF-0384  FLEXI MULTI  U WO                                   1  OM384 WO
+ 20505 13841 BTS-1150  U WO                                                0   0
+ CE03841          BB/-
+                                                                               4
+              TRX-001  U WO       47  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO       64  0    -                  1
+ 20505 13842 BTS-1151  U WO                                                6   3
+ CE03842          BB/-
+                                                                               9
+              TRX-005  U WO       55  0    - MBCCH+CBCH    P  1
+              TRX-006  U WO       78  0    -                  1
+              TRX-007  U WO       82  0    -                  1
+              TRX-011  U WO       66  0    -                  1
+              TRX-015  U WO       74  0    -                  1
+ 20505 13843 BTS-1152  U WO                                                0   0
+ CE03843          BB/-
+                                                                               5
+              TRX-009  U WO       50  0    - MBCCH+CBCH    P  1
+              TRX-010  U WO       81  0    -                  1
+
+BCF-0386  FLEXI MULTI  U WO                                   2  OM386 WO
+ 20505 13861 BTS-1156  U WO                                                0   1
+ CE03861          BB/-
+                                                                               3
+              TRX-001  U WO       55  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO       81  0    -                  2
+ 20505 13862 BTS-1157  U WO                                                0   2
+ CE03862          BB/-
+                                                                               6
+              TRX-005  U WO       80  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO       68  0    -                  2
+ 20505 13863 BTS-1158  U WO                                                0   0
+ CE03863          BB/-
+                                                                               3
+              TRX-003  U WO       58  0    - MBCCH+CBCH       2
+              TRX-004  U WO       74  0    -                  2
+
+BCF-0387  FLEXI MULTI  U WO                                   3  OM387 WO
+ 20505 13871 BTS-1159  U WO                                                0   1
+ CE03871          BB/-
+                                                                               5
+              TRX-001  U WO       59  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       67  0    -                  3
+ 20505 13872 BTS-1160  U WO                                                0   1
+ CE03872          BB/-
+                                                                               3
+              TRX-006  U WO       46  0    - MBCCH+CBCH    P  3
+              TRX-007  U WO       82  0    -                  3
+ 20505 13873 BTS-1161  U WO                                                0   0
+ CE03873          BB/-
+                                                                               4
+              TRX-009  U WO       52  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO       65  0    -                  3
+
+BCF-0388  FLEXI MULTI  U WO                                   1  OM388 WO
+ 20505 13881 BTS-1162  U WO                                                0   0
+ CE03881          BB/-
+                                                                               4
+              TRX-001  U WO       53  0    - MBCCH+CBCH    P  1
+              TRX-003  U WO       74  0    -                  1
+              TRX-004  U WO       83  0    -                  1
+ 20505 13882 BTS-1163  U WO                                                0   1
+ CE03882          BB/-
+                                                                              11
+              TRX-005  U WO       77  0    - MBCCH+CBCH    P  1
+              TRX-006  U WO       68  0    -                  1
+ 20505 13883 BTS-1164  U WO                                                0   2
+ CE03883          BB/-
+                                                                               3
+              TRX-009  U WO       46  0    - MBCCH+CBCH    P  1
+              TRX-010  U WO       72  0    -                  1
+
+BCF-0389  FLEXI MULTI  U WO                                   2  OM389 WO
+ 20505 13891 BTS-1165  U WO                                                0   0
+ CE03891          BB/-
+                                                                               6
+              TRX-001  U WO      636  0    - MBCCH+CBCH    P  2
+              TRX-003  U WO      685  0    -                  2
+ 20505 13892 BTS-1166  U WO                                                0   0
+ CE03892          BB/-
+                                                                               4
+              TRX-005  U WO      620  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO      679  0    -                  2
+ 20505 13893 BTS-1167  U WO                                                4   1
+ CE03893          BB/-
+                                                                               5
+              TRX-009  U WO      627  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO      674  0    -                  2
+
+BCF-0391  FLEXI MULTI  U WO                                   1  OM391 WO
+ 20501 13911 BTS-1171  U BL-BTS                                            0   0
+ CE03911          BB/-
+                                                                               0
+              TRX-001  U BL-BTS   53  0    - MBCCH+CBCH    P  1
+              TRX-004  U BL-TRX   80  0    -                  1
+ 20501 13912 BTS-1172  U BL-BTS                                            0   0
+ CE03912          BB/-
+                                                                               0
+              TRX-005  U BL-BTS   52  0    - MBCCH+CBCH    P  1
+              TRX-006  U BL-TRX   76  0    -                  1
+ 20501 13913 BTS-1173  U BL-BTS                                            0   0
+ CE03913          BB/-
+                                                                               0
+              TRX-009  U BL-BTS   49  0    - MBCCH+CBCH    P  1
+              TRX-010  U BL-TRX   65  0    -                  1
+
+BCF-0392  FLEXI MULTI  U WO                                   2  OM392 WO
+ 20505 13921 BTS-1174  U WO                                                0   1
+ CE03921          BB/-
+                                                                               5
+              TRX-001  U WO       60  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO       43  0    -                  2
+              TRX-011  U WO       77  0    -                  2
+ 20505 13922 BTS-1175  U WO                                                0   1
+ CE03922          BB/-
+                                                                               2
+              TRX-005  U WO       57  0    - MBCCH+CBCH    P  2
+              TRX-007  U WO       50  0    -                  2
+ 20505 13923 BTS-1176  U WO                                                0   1
+ CE03923          BB/-
+                                                                               1
+              TRX-009  U WO       48  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO       64  0    -                  3
+
+BCF-0393  FLEXI MULTI  U WO                                   3  OM393 WO
+ 20505 13931 BTS-1177  U WO                                                1   1
+ CE03931          BB/-
+                                                                               5
+              TRX-001  U WO      612  0    - MBCCH+CBCH    P  3
+              TRX-003  U WO      638  0    -                  3
+              TRX-006  U WO      642  0    -                  3
+ 20505 13932 BTS-1178  U WO                                                0   2
+ CE03932          BB/-
+                                                                               6
+              TRX-005  U WO      624  0    - MBCCH+CBCH    P  3
+              TRX-007  U WO      652  0    -                  3
+ 20505 13933 BTS-1179  U WO                                                1   0
+ CE03933          BB/-
+                                                                               4
+              TRX-009  U WO      628  0    - MBCCH+CBCH    P  3
+              TRX-012  U WO      646  0    -                  3
+
+BCF-0394  FLEXI MULTI  U WO                                   1  OM394 WO
+ 20505 13941 BTS-1180  U BL-BTS                                            0   0
+ CE03941          BB/-
+                                                                               0
+              TRX-001  U BL-BTS  637  0    - MBCCH+CBCH    P  1
+ 20505 13942 BTS-1181  U BL-BTS                                            0   0
+ CE03942          BB/-
+                                                                               0
+              TRX-005  U BL-BTS  616  0    - MBCCH+CBCH    P  1
+              TRX-006  U BL-TRX  677  0    -                  1
+ 20505 13943 BTS-1182  U BL-BTS                                            0   0
+ CE03943          BB/-
+                                                                               0
+              TRX-009  U BL-BTS  630  0    - MBCCH+CBCH    P  1
+              TRX-012  U BL-TRX  684  0    -                  1
+
+BCF-0395  FLEXI MULTI  U WO                                   2  OM395 WO
+ 20505 13951 BTS-1183  U WO                                                0   1
+ CE03951          BB/-
+                                                                               6
+              TRX-001  U WO       51  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO       66  0    -                  2
+ 20505 13952 BTS-1184  U WO                                                0   0
+ CE03952          BB/-
+                                                                               4
+              TRX-005  U WO       59  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO       78  0    -                  2
+ 20505 13953 BTS-1185  U WO                                                0   0
+ CE03953          BB/-
+                                                                               6
+              TRX-009  U WO       47  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO       77  0    -                  2
+
+BCF-0396  FLEXI MULTI  U WO                                   2  OM396 WO
+ 20505 13961 BTS-1186  U WO                                                0   0
+ CE03961          BB/-
+                                                                               2
+              TRX-001  U WO      624  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO      671  0    -                  2
+ 20505 13962 BTS-1187  U WO                                                0   1
+ CE03962          BB/-
+                                                                               3
+              TRX-005  U WO      659  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO      631  0    -                  2
+ 20505 13963 BTS-1188  U WO                                                0   0
+ CE03963          BB/-
+                                                                               4
+              TRX-009  U WO      638  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO      683  0    -                  2
+
+BCF-0397  FLEXI MULTI  U WO                                   3  OM397 WO
+ 20505 13971 BTS-1189  U WO                                                0   0
+ CE03971          BB/-
+                                                                               7
+              TRX-001  U WO       64  0    - MBCCH+CBCH    P  3
+              TRX-011  U WO       70  0    -                  3
+ 20505 13972 BTS-1190  U WO                                                0   2
+ CE03972          BB/-
+                                                                               6
+              TRX-005  U WO       57  0    - MBCCH+CBCH    P  3
+              TRX-007  U WO       78  0    -                  3
+ 20505 13973 BTS-1191  U WO                                                7   1
+ CE03973          BB/-
+                                                                               7
+              TRX-008  U WO       68  0    -                  3
+              TRX-009  U WO       54  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO       82  0    -                  3
+              TRX-012  U WO       74  0    -                  3
+
+BCF-0398  FLEXI MULTI  U WO                                   1  OM398 WO
+ 20505 13981 BTS-1192  U WO                                                0   0
+ CE03981          BB/-
+                                                                               4
+              TRX-001  U WO       49  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO       43  0    -                  1
+              TRX-003  U WO       76  0    -                  1
+ 20505 13982 BTS-1193  U WO                                                0   3
+ CE03982          BB/-
+                                                                               3
+              TRX-005  U WO       52  0    - MBCCH+CBCH    P  1
+              TRX-012  U WO       54  0    -                  1
+ 20505 13983 BTS-1194  U WO                                                5   0
+ CE03983          BB/-
+                                                                              11
+              TRX-009  U WO       56  0    - MBCCH+CBCH    P  1
+              TRX-010  U WO       83  0    -                  1
+              TRX-011  U WO       65  0    -                  1
+
+BCF-0399  FLEXI MULTI  U WO                                   3  OM399 WO
+ 20505 13991 BTS-1195  U BL-BTS                                            0   0
+ CE03991          BB/-
+                                                                               0
+              TRX-003  U BL-TRX  657  0    -                  3
+              TRX-008  U BL-BTS  620  0    - MBCCH+CBCH    P  3
+ 20505 13992 BTS-1196  U BL-BTS                                            0   0
+ CE03992          BB/-
+                                                                               0
+              TRX-004  U BL-TRX  674  0    -                  3
+              TRX-007  U BL-BTS  622  0    - MBCCH+CBCH       3
+ 20505 13993 BTS-1197  U BL-BTS                                            0   0
+ CE03993          BB/-
+                                                                               0
+              TRX-009  U BL-BTS  613  0    - MBCCH+CBCH    P  3
+              TRX-010  U BL-TRX  665  0    -                  3
+
+BCF-0400  FLEXI MULTI  U WO                                   1  OM400 WO
+ 20505 14001 BTS-1198  U WO                                                0   0
+ CE04001          BB/-
+                                                                               5
+              TRX-001  U WO       46  0    - MBCCH+CBCH    P  1
+              TRX-004  U WO       83  0    -                  1
+ 20505 14002 BTS-1199  U WO                                                0   0
+ CE04002          BB/-
+                                                                               5
+              TRX-005  U WO       74  0    - MBCCH+CBCH    P  1
+              TRX-006  U WO       81  0    -                  1
+ 20505 14003 BTS-1200  U WO                                                0   0
+ CE04003          BB/-
+                                                                               4
+              TRX-009  U WO       49  0    - MBCCH+CBCH    P  1
+              TRX-011  U WO       62  0    -                  1
+
+BCF-0401  FLEXI MULTI  U WO                                   2  OM401 WO
+ 20505 14011 BTS-1201  U WO                                                0   3
+ CE04011          BB/-
+                                                                               3
+              TRX-001  U WO       43  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO       64  0    -                  2
+ 20505 14012 BTS-1202  U WO                                                0   2
+ CE04012          BB/-
+                                                                               5
+              TRX-005  U WO       49  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO       80  0    -                  2
+ 20505 14013 BTS-1203  U WO                                                0   1
+ CE04013          BB/-
+                                                                               3
+              TRX-009  U WO       59  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO       75  0    -                  2
+
+BCF-0402  FLEXI MULTI  U WO                                   3  OM402 WO
+ 20505 14021 BTS-1204  U WO                                                0   1
+ CE04021          BB/-
+                                                                               6
+              TRX-001  U WO       61  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       80  0    -                  3
+ 20505 14022 BTS-1205  U WO                                                0   1
+ CE04022          BB/-
+                                                                               3
+              TRX-005  U WO       45  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       71  0    -                  3
+              TRX-011  U WO       72  0    -                  3
+ 20505 14023 BTS-1206  U WO                                                0   0
+ CE04023          BB/-
+                                                                               2
+              TRX-009  U WO       82  0    -                  3
+              TRX-010  U WO       79  0    - MBCCH+CBCH    P  3
+
+BCF-0403  FLEXI MULTI  U WO                                   1  OM403 WO
+ 20505 14031 BTS-1207  U WO                                                0   2
+ CE04031          BB/-
+                                                                               4
+              TRX-001  U WO       53  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO       83  0    -                  1
+ 20505 14032 BTS-1208  U WO                                                0   0
+ CE04032          BB/-
+                                                                               2
+              TRX-005  U WO       55  0    - MBCCH+CBCH    P  1
+              TRX-006  U WO       75  0    -                  1
+ 20505 14033 BTS-1209  U WO                                                0   3
+ CE04033          BB/-
+                                                                               3
+              TRX-009  U WO       46  0    - MBCCH+CBCH    P  1
+              TRX-010  U WO       66  0    -                  1
+
+BCF-0404  FLEXI MULTI  U WO                                   2  OM404 WO
+ 20505 14041 BTS-1210  U WO                                                6   4
+ CE04041          BB/-
+                                                                              18
+              TRX-001  U WO       56  0    - MBCCH+CBCH    P  2
+              TRX-003  U WO       75  0    -                  2
+              TRX-004  U WO       51  0    -                  2
+              TRX-012  U WO       73  0    -                  2
+              TRX-016  U WO       77  0    -                  2
+ 20505 14042 BTS-1211  U WO                                                0   2
+ CE04042          BB/-
+                                                                              13
+              TRX-005  U WO       70  0    -                  2
+              TRX-006  U WO       58  0    -                  2
+              TRX-007  U WO       53  0    - MBCCH+CBCH    P  2
+              TRX-014  U WO       68  0    -                  2
+ 20505 14043 BTS-1212  U WO                                                0   1
+ CE04043          BB/-
+                                                                               9
+              TRX-008  U WO       63  0    -                  2
+              TRX-009  U WO       44  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO       79  0    -                  2
+              TRX-013  U WO       61  0    -                  2
+
+BCF-0407  FLEXI MULTI  U WO                                   3  OM407 WO
+ 20505 14071 BTS-1219  U WO                                                0   0
+ CE04071          BB/-
+                                                                               4
+              TRX-001  U WO       46  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       83  0    -                  3
+ 20505 14072 BTS-1220  U WO                                                7   1
+ CE04072          BB/-
+                                                                              12
+              TRX-005  U WO       55  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       58  0    -                  3
+              TRX-007  U WO       80  0    -                  3
+ 20505 14073 BTS-1221  U WO                                                0   0
+ CE04073          BB/-
+                                                                               5
+              TRX-009  U WO       53  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO       62  0    -                  3
+
+BCF-0411  FLEXI MULTI  U WO                                   2  OM411 BL
+ 20502 14111 BTS-1231  U WO                                                0   0
+ CE04111          BB/-
+                                                                               0
+              TRX-001  U BL-RSL   55  0    - MBCCH+CBCH    P  2
+              TRX-002  U BL-RSL   67  0    -                  2
+ 20502 14112 BTS-1232  U WO                                                0   0
+ CE04112          BB/-
+                                                                               0
+              TRX-005  U BL-RSL   46  0    - MBCCH+CBCH    P  2
+              TRX-006  U BL-RSL   69  0    -                  2
+ 20502 14113 BTS-1233  U WO                                                0   0
+ CE04113          BB/-
+                                                                               0
+              TRX-009  U BL-RSL   59  0    - MBCCH+CBCH    P  2
+              TRX-010  U BL-RSL   75  0    -                  2
+
+BCF-0412  FLEXI MULTI  U WO                                   1  OM412 BL
+ 20502 14121 BTS-1234  U WO                                                0   0
+ CE04121          BB/-
+                                                                               0
+              TRX-001  U BL-RSL   43  0    - MBCCH+CBCH    P  1
+              TRX-003  U BL-RSL   64  0    -                  1
+              TRX-008  U BL-RSL   77  0    -                  1
+ 20502 14122 BTS-1235  U WO                                                0   0
+ CE04122          BB/-
+                                                                               0
+              TRX-004  U BL-RSL   69  0    -                  1
+              TRX-005  U BL-RSL   59  0    - MBCCH+CBCH    P  1
+              TRX-006  U BL-RSL   82  0    -                  1
+              TRX-007  U BL-RSL   67  0    -                  1
+ 20502 14123 BTS-1236  U WO                                                0   0
+ CE04123          BB/-
+                                                                               0
+              TRX-009  U BL-RSL   54  0    - MBCCH+CBCH    P  1
+              TRX-010  U BL-RSL   81  0    -                  1
+
+BCF-0413  FLEXI MULTI  U WO                                   2  OM413 BL
+ 20502 14131 BTS-1237  U WO                                                0   0
+ CE04131          BB/-
+                                                                               0
+              TRX-001  U BL-RSL   48  0    - MBCCH+CBCH    P  2
+              TRX-002  U BL-RSL   62  0    -                  2
+ 20502 14132 BTS-1238  U WO                                                0   0
+ CE04132          BB/-
+                                                                               0
+              TRX-005  U BL-RSL   58  0    - MBCCH+CBCH    P  2
+              TRX-006  U BL-RSL   64  0    -                  2
+ 20502 14133 BTS-1239  U WO                                                0   0
+ CE04133          BB/-
+                                                                               0
+              TRX-009  U BL-RSL   53  0    - MBCCH+CBCH    P  2
+              TRX-010  U BL-RSL   67  0    -                  2
+
+BCF-0414  FLEXI MULTI  U WO                                   3  OM414 BL
+ 20505 14141 BTS-1240  U WO                                                0   0
+ CE04141          BB/-
+                                                                               0
+              TRX-014  U BL-RSL   63  0    - MBCCH+CBCH    P  3
+              TRX-015  U BL-RSL   50  0    -                  3
+ 20505 14142 BTS-1241  U WO                                                0   0
+ CE04142          BB/-
+                                                                               0
+              TRX-003  U BL-RSL   69  0    -                  3
+              TRX-005  U BL-RSL   44  0    - MBCCH+CBCH    P  3
+              TRX-006  U BL-RSL   83  0    -                  3
+              TRX-013  U BL-RSL   74  0    -                  3
+ 20505 14143 BTS-1242  U WO                                                0   0
+ CE04143          BB/-
+                                                                               0
+              TRX-009  U BL-RSL   64  0    - MBCCH+CBCH    P  3
+              TRX-010  U BL-RSL   72  0    -                  3
+              TRX-011  U BL-RSL   79  0    -                  3
+              TRX-012  U BL-RSL   62  0    -                  3
+
+BCF-0415  FLEXI MULTI  U WO                                   3  OM415 WO
+ 20502 14151 BTS-1243  U WO                                                0   2
+ CE04151          BB/-
+                                                                               6
+              TRX-001  U WO       44  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       70  0    -                  3
+ 20502 14152 BTS-1244  U WO                                                0   2
+ CE04152          BB/-
+                                                                               2
+              TRX-005  U WO       56  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       66  0    -                  3
+ 20502 14153 BTS-1245  U WO                                                0   1
+ CE04153          BB/-
+                                                                               2
+              TRX-009  U WO       46  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO       80  0    -                  3
+
+BCF-0416  FLEXI MULTI  U WO                                   3  OM416 WO
+ 20505 14161 BTS-1246  U WO                                                0   0
+ CE04161          BB/-
+                                                                               3
+              TRX-001  U WO       78  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       65  0    -                  3
+ 20505 14162 BTS-1247  U WO                                                2   1
+ CE04162          BB/-
+                                                                               5
+              TRX-005  U WO       43  0    - MBCCH+CBCH    P  3
+              TRX-012  U WO       70  0    -                  3
+ 20505 14163 BTS-1248  U WO                                                3   5
+ CE04163          BB/-
+                                                                              12
+              TRX-003  U WO       75  0    -                  3
+              TRX-004  U WO       62  0    -                  3
+              TRX-009  U WO       53  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO       73  0    -                  3
+              TRX-011  U WO       51  0    -                  3
+
+BCF-0438  FLEXI MULTI  U WO                                   1  OM438 WO
+ 20502 14381 BTS-1312  U WO                                                0   1
+ CE04381          BB/-
+                                                                               2
+              TRX-001  U WO       55  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO       75  0    -                  1
+ 20502 14382 BTS-1313  U WO                                                0   2
+ CE04382          BB/-
+                                                                               2
+              TRX-005  U WO       47  0    - MBCCH+CBCH    P  1
+              TRX-006  U WO       83  0    -                  1
+              TRX-007  U WO       62  0    -                  1
+ 20502 14383 BTS-1314  U WO                                                0   2
+ CE04383          BB/-
+                                                                               4
+              TRX-009  U WO       56  0    - MBCCH+CBCH    P  1
+              TRX-010  U WO       66  0    -                  1
+
+BCF-0439  FLEXI MULTI  U WO                                   1  OM439 WO
+ 20502 14391 BTS-1315  U WO                                                0   1
+ CE04391          BB/-
+                                                                               4
+              TRX-001  U WO       50  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO       69  0    -                  1
+ 20502 14392 BTS-1316  U WO                                                0   4
+ CE04392          BB/-
+                                                                               5
+              TRX-003  U WO       73  0    -                  2
+              TRX-005  U WO       54  0    - MBCCH+CBCH    P  1
+              TRX-006  U WO       75  0    -                  1
+ 20502 14393 BTS-1317  U WO                                                2   2
+ CE04393          BB/-
+                                                                               5
+              TRX-009  U WO       52  0    - MBCCH+CBCH    P  1
+              TRX-010  U WO       82  0    -                  1
+              TRX-011  U WO       58  0    -                  1
+
+BCF-0443  FLEXI MULTI  U WO                                   1  OM443 WO
+ 20505 14431 BTS-1327  U WO                                                2   5
+ CE04431          BB/-
+                                                                               7
+              TRX-001  U WO       48  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO       78  0    -                  1
+              TRX-003  U WO       65  0    -                  1
+              TRX-007  U WO       80  0    -                  1
+ 20505 14432 BTS-1328  U WO                                                1   1
+ CE04432          BB/-
+                                                                               6
+              TRX-004  U WO       67  0    -                  1
+              TRX-005  U WO       46  0    - MBCCH+CBCH    P  1
+              TRX-006  U WO       73  0    -                  1
+ 20505 14433 BTS-1329  U WO                                                1   2
+ CE04433          BB/-
+                                                                               4
+              TRX-009  U WO       56  0    - MBCCH+CBCH    P  1
+              TRX-010  U WO       69  0    -                  1
+
+BCF-0444  FLEXI MULTI  U WO                                   3  OM444 BL
+ 20502 14441 BTS-1330  U WO                                                0   0
+ CE04441          BB/-
+                                                                               0
+              TRX-001  U BL-RSL   52  0    - MBCCH+CBCH    P  3
+              TRX-002  U BL-RSL   73  0    -                  3
+ 20502 14442 BTS-1331  U WO                                                0   0
+ CE04442          BB/-
+                                                                               0
+              TRX-003  U BL-RSL   78  0    -                  3
+              TRX-005  U BL-RSL   58  0    - MBCCH+CBCH    P  3
+              TRX-006  U BL-RSL   66  0    -                  3
+              TRX-014  U BL-RSL   80  0    -                  3
+ 20502 14443 BTS-1332  U WO                                                0   0
+ CE04443          BB/-
+                                                                               0
+              TRX-009  U BL-RSL   50  0    - MBCCH+CBCH    P  3
+              TRX-010  U BL-RSL   71  0    -                  3
+
+BCF-0445  FLEXI MULTI  U WO                                   1  OM445 WO
+ 20502 14451 BTS-1333  U WO                                                3   1
+ CE04451          BB/-
+                                                                               6
+              TRX-001  U WO       44  0    - MBCCH+CBCH    P  1
+              TRX-003  U WO       74  0    -                  1
+ 20502 14452 BTS-1334  U WO                                               13   0
+ CE04452          BB/-
+                                                                               6
+              TRX-005  U WO       53  0    - MBCCH+CBCH    P  1
+              TRX-006  U WO       70  0    -                  1
+              TRX-007  U WO       72  0    -                  1
+ 20502 14453 BTS-1335  U WO                                                4   2
+ CE04453          BB/-
+                                                                               5
+              TRX-008  U WO       82  0    -                  1
+              TRX-009  U WO       49  0    - MBCCH+CBCH    P  1
+              TRX-011  U WO       60  0    -                  1
+
+BCF-0446  FLEXI MULTI  U WO                                   2  OM446 WO
+ 20502 14461 BTS-1336  U WO                                                3   6
+ CE04461          BB/-
+                                                                              12
+              TRX-001  U WO       51  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO       69  0    -                  2
+              TRX-003  U WO       77  0    -                  2
+              TRX-012  U WO       58  0    -                  2
+ 20502 14462 BTS-1337  U WO                                                0   3
+ CE04462          BB/-
+                                                                               4
+              TRX-004  U WO       67  0    -                  2
+              TRX-005  U WO       49  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO       62  0    -                  2
+ 20502 14463 BTS-1338  U WO                                                0   1
+ CE04463          BB/-
+                                                                               1
+              TRX-008  U WO       68  0    -                  2
+              TRX-009  U WO       60  0    - MBCCH+CBCH    P  2
+              TRX-011  U WO       74  0    -                  2
+
+BCF-0447  FLEXI MULTI  U WO                                   2  OM447 WO
+ 20502 14471 BTS-1339  U WO                                                0   0
+ CE04471          BB/-
+                                                                               6
+              TRX-001  U WO       47  0    - MBCCH+CBCH    P  2
+              TRX-002  U WO       73  0    -                  2
+              TRX-003  U WO       56  0    -                  2
+ 20502 14472 BTS-1340  U WO                                                1   3
+ CE04472          BB/-
+                                                                               6
+              TRX-005  U WO       45  0    - MBCCH+CBCH    P  2
+              TRX-007  U WO       79  0    -                  2
+              TRX-011  U WO       71  0    -                  2
+ 20502 14473 BTS-1341  U WO                                                1   3
+ CE04473          BB/-
+                                                                               5
+              TRX-004  U WO       66  0    -                  2
+              TRX-009  U WO       60  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO       63  0    -                  2
+
+BCF-0448  FLEXI MULTI  U WO                                   2  OM448 WO
+ 20502 14481 BTS-1342  U WO                                                6   0
+ CE04481          BB/-
+                                                                               6
+              TRX-001  U WO       59  0    - MBCCH+CBCH    P  2
+              TRX-003  U WO       80  0    -                  2
+              TRX-008  U WO       76  0    -                  2
+ 20502 14482 BTS-1343  U WO                                                8   2
+ CE04482          BB/-
+                                                                              12
+              TRX-004  U WO       78  0    -                  2
+              TRX-005  U WO       48  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO       63  0    -                  2
+              TRX-007  U WO       72  0    -                  2
+              TRX-015  U WO       66  0    -                  2
+ 20502 14483 BTS-1344  U WO                                                4   4
+ CE04483          BB/-
+                                                                              12
+              TRX-009  U WO       55  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO       68  0    -                  2
+              TRX-011  U WO       70  0    -                  2
+              TRX-012  U WO       74  0    -                  2
+              TRX-014  U WO       82  0    -                  2
+
+BCF-0449  FLEXI MULTI  U WO                                   3  OM449 WO
+ 20502 14491 BTS-1345  U WO                                                2   1
+ CE04491          BB/-
+                                                                               6
+              TRX-001  U WO       51  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       79  0    -                  3
+ 20502 14492 BTS-1346  U WO                                                3   1
+ CE04492          BB/-
+                                                                               4
+              TRX-005  U WO       56  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       83  0    -                  3
+              TRX-017  U WO       76  0    -                  3
+ 20502 14493 BTS-1347  U WO                                                4   0
+ CE04493          BB/-
+                                                                               5
+              TRX-009  U WO       43  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO       67  0    -                  3
+
+BCF-0451  FLEXI MULTI  U WO                                   3  OM451 WO
+ 20502 14511 BTS-1351  U WO                                                2   3
+ CE04511          BB/-
+                                                                               5
+              TRX-001  U WO       55  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       79  0    -                  3
+              TRX-004  U WO       81  0    -                  3
+ 20502 14512 BTS-1352  U WO                                                0   4
+ CE04512          BB/-
+                                                                               6
+              TRX-005  U WO       43  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       75  0    -                  3
+              TRX-007  U WO       64  0    -                  3
+ 20502 14513 BTS-1353  U WO                                                1   3
+ CE04513          BB/-
+                                                                               4
+              TRX-008  U WO       83  0    -                  3
+              TRX-009  U WO       48  0    - MBCCH+CBCH    P  3
+
+BCF-0453  FLEXI MULTI  U WO                                   3  OM453 WO
+ 20505 14531 BTS-1357  U WO                                                0   0
+ CE04531          BB/-
+                                                                               2
+              TRX-001  U WO       45  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO       74  0    -                  3
+ 20505 14532 BTS-1358  U WO                                                7   0
+ CE04532          BB/-
+                                                                               5
+              TRX-004  U WO       76  0    -                  3
+              TRX-005  U WO       57  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO       66  0    -                  3
+ 20505 14533 BTS-1359  U WO                                                0   2
+ CE04533          BB/-
+                                                                               3
+              TRX-009  U WO       48  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO       83  0    -                  3
+
+BCF-0458  FLEXI MULTI  U BL-RST                               2  OM458 BL
+ 20501 14581 BTS-1372  U BL-RST                                            0   0
+ CE04581          BB/-
+                                                                               0
+              TRX-001  U BL-RST   51  0    - MBCCH+CBCH    P  2
+              TRX-002  U BL-RST   78  0    -                  2
+ 20501 14582 BTS-1373  U BL-RST                                            0   0
+ CE04582          BB/-
+                                                                               0
+              TRX-003  U BL-RST   70  0    -                  2
+              TRX-005  U BL-RST   60  0    - MBCCH+CBCH    P  2
+              TRX-010  U BL-RST   76  0    -                  2
+ 20501 14583 BTS-1374  U BL-RST                                            0   0
+ CE04583          BB/-
+                                                                               0
+              TRX-006  U BL-RST   50  0    - MBCCH+CBCH       2
+              TRX-007  U BL-RST   67  0    -                  2
+ 20501 14585 BTS-2873  U BL-RST                                            0   0
+ CE04585          BB/-
+                                                                               0
+              TRX-008  U BL-RST  675  0    -                  1
+              TRX-011  U BL-RST  634  0    - MBCCH+CBCH    P  2
+ 20501 14586 BTS-2874  U BL-RST                                            0   0
+ CE04586          BB/-
+                                                                               0
+              TRX-012  U BL-RST  645  0    -                  2
+              TRX-015  U BL-RST  637  0    - MBCCH+CBCH    P  2
+
+BCF-1099  FLEXI MULTI  U WO                                   1  O1099 WO
+ 20501 10994 BTS-1795  U WO                                                0   0
+ CE00990          BB/-
+                                                                               4
+              TRX-001  U WO       46  0    - MBCCH+CBCH    P  1
+              TRX-013  U WO       70  0    -                  1
+ 20501 10995 BTS-1796  U WO                                                0   1
+ CE00995          BB/-
+                                                                               4
+              TRX-005  U WO       65  0    - MBCCH+CBCH    P  1
+              TRX-015  U WO       48  0    -                  1
+ 20501 10996 BTS-1797  U WO                                                0   1
+ CE00996          BB/-
+                                                                              13
+              TRX-009  U WO       60  0    - MBCCH+CBCH    P  1
+              TRX-017  U WO       79  0    -                  1
+              TRX-018  U WO       68  0    -                  1
+
+BCF-1272  FLEXI MULTI  U WO                                   3  O1272 WO
+ 20501 12724 BTS-2314  U WO                                                1   7
+ CE02724          BB/-
+                                                                               2
+              TRX-001  U WO      617  0    - MBCCH+CBCH    P  3
+              TRX-002  U WO      663  0    -                  3
+              TRX-003  U WO      665  0    -                  3
+              TRX-004  U WO      676  0    -                  3
+              TRX-013  U WO      644  0    -                  3
+              TRX-017  U WO      635  0    -                  3
+ 20501 12725 BTS-2315  U WO                                                0   3
+ CE02725          BB/-
+                                                                               1
+              TRX-006  U WO      684  0    -                  3
+              TRX-008  U WO      657  0    - MBCCH+CBCH       3
+              TRX-012  U WO      651  0    -                  3
+              TRX-014  U WO      662  0    -                  3
+ 20501 12726 BTS-2316  U WO                                                2   2
+ CE02726          BB/-
+                                                                               1
+              TRX-009  U WO      629  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO      654  0    -                  3
+              TRX-011  U WO      669  0    -                  3
+
+BCF-1273  FLEXI MULTI  U WO                                   3  O1273 WO
+ 20501 12734 BTS-2317  U WO                                                2   0
+ CE02734          BB/-
+                                                                               1
+              TRX-001  U WO      613  0    - MBCCH+CBCH    P  3
+              TRX-003  U WO      681  0    -                  3
+              TRX-004  U WO      670  0    -                  3
+              TRX-012  U WO      638  0    -                  3
+ 20501 12735 BTS-2318  U WO                                                0   4
+ CE02735          BB/-
+                                                                               1
+              TRX-005  U WO      619  0    - MBCCH+CBCH    P  3
+              TRX-006  U WO      678  0    -                  3
+              TRX-007  U WO      680  0    -                  3
+ 20501 12736 BTS-2319  U WO                                                2   2
+ CE02736          BB/-
+                                                                               1
+              TRX-008  U WO      643  0    -                  1
+              TRX-009  U WO      625  0    - MBCCH+CBCH    P  3
+              TRX-010  U WO      676  0    -                  3
+              TRX-011  U WO      673  0    -                  3
+
+BCF-1347  FLEXI MULTI  U WO                                   1  O1347 WO
+ 20501 13474 BTS-2539  U WO                                                8   0
+ CE03474          BB/-
+                                                                               4
+              TRX-001  U WO      632  0    - MBCCH+CBCH    P  1
+              TRX-002  U WO      657  0    -                  1
+              TRX-003  U WO      672  0    -                  1
+              TRX-004  U WO      676  0    -                  1
+              TRX-013  U WO      662  0    -                  1
+              TRX-014  U WO      674  0    -                  1
+ 20501 13475 BTS-2540  U WO                                                2   9
+ CE03475          BB/-
+                                                                               2
+              TRX-005  U WO      616  0    - MBCCH+CBCH    P  1
+              TRX-006  U WO      670  0    -                  1
+              TRX-007  U WO      639  0    -                  1
+              TRX-015  U WO      653  0    -                  1
+ 20501 13476 BTS-2541  U WO                                                1   1
+ CE03476          BB/-
+                                                                               1
+              TRX-009  U WO      614  0    - MBCCH+CBCH    P  1
+              TRX-012  U WO      665  0    -                  1
+
+BCF-1348  FLEXI MULTI  U WO                                   2  O1348 WO
+ 20501 13484 BTS-2542  U WO                                                5   0
+ CE03484          BB/-
+                                                                               6
+              TRX-001  U WO      664  0    -                  2
+              TRX-002  U WO      634  0    - MBCCH+CBCH       2
+              TRX-003  U WO      680  0    -                  2
+              TRX-004  U WO      675  0    -                  2
+ 20501 13485 BTS-2543  U WO                                                5   0
+ CE03485          BB/-
+                                                                               4
+              TRX-005  U WO      627  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO      642  0    -                  2
+              TRX-007  U WO      648  0    -                  2
+              TRX-013  U WO      667  0    -                  2
+              TRX-014  U WO      640  0    -                  2
+              TRX-015  U WO      650  0    -                  2
+ 20501 13486 BTS-2544  U WO                                                0   0
+ CE03486          BB/-
+                                                                               1
+              TRX-009  U WO      618  0    - MBCCH+CBCH    P  2
+              TRX-010  U WO      646  0    -                  2
+              TRX-011  U WO      660  0    -                  2
+              TRX-012  U WO      663  0    -                  2
+              TRX-016  U WO      644  0    -                  2
+
+BCF-1353  FLEXI MULTI  U WO                                   2  O1353 WO
+ 20501 13534 BTS-2557  U WO                                                7   1
+ CE03534          BB/-
+                                                                               4
+              TRX-001  U WO      612  0    - MBCCH+CBCH    P  2
+              TRX-003  U WO      649  0    -                  2
+              TRX-008  U WO      681  0    -                  2
+ 20501 13535 BTS-2558  U WO                                                0   3
+ CE03535          BB/-
+                                                                               1
+              TRX-005  U WO      615  0    - MBCCH+CBCH    P  2
+              TRX-006  U WO      646  0    -                  2
+              TRX-007  U WO      663  0    -                  2
+              TRX-012  U WO      661  0    -                  2
+              TRX-013  U WO      656  0    -                  2
+ 20501 13536 BTS-2559  U WO                                                0   4
+ CE03536          BB/-
+                                                                               1
+              TRX-009  U WO      617  0    - MBCCH+CBCH    P  2
+              TRX-011  U WO      678  0    -                  2
+
+BCF-2000  FLEXI MULTI  U BL-BCF                               3  O2000 BL
+ 25002 65531 BTS-2021  U BL-BCF                                            0   0
+ YAO0011          BB/-
+                                                                               0
+              TRX-001  U BL-BCF   50  0    - MBCCH+CBCH    P  3
+              TRX-002  U BL-BCF   64  0    -                  3
+
+
+COMMAND EXECUTED
+
+
+BASE STATION CONTROLLER HANDLING COMMAND <EE_>
+

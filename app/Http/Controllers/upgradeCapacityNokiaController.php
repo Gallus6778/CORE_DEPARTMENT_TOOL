@@ -14,7 +14,7 @@ class upgradeCapacityNokiaController extends Controller
 {
     public function upgradeCapacityNokiaPerspIndex(){
 
-
+        
         $data = DB::table('upgradecapacitynokiapersp')->paginate(10);
 
         return view('BSS-operations.nokia2G.upgradeCapacityNokiaPersp', compact('data'));

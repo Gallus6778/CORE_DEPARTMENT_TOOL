@@ -15,10 +15,10 @@ class upgradecapacitynokiaperspImport implements ToCollection
     {
         // $users = App\upgradecapacitynokia::all();;
         $counter = 0;
-
+        // dd($collection);
         foreach($collection as $key=>$value)
         {
-
+            // dd($value);
             if($key>=1){
 //                dd($value[2]);
 //                echo $value[2];

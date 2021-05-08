@@ -757,7 +757,7 @@ class upgradeCapacityNokiaUpdateController extends Controller
                                 case '0':
                                     $bcsu_ip = '10.92.42.67';
                                     break;
-                                case '2':
+                                case '1':
                                     $bcsu_ip = '10.92.42.65';
                                     break;
                                 case '3':
